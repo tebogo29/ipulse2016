@@ -1,0 +1,1120 @@
+----------------------------------------
+Timestamp: 2016-05-20 12:11:26 PM
+
+Message: HandlingInstanceID: d8c917ee-3aa7-486c-ba92-87a4a5d12231
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:11:26
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:11:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:14:24 PM
+
+Message: HandlingInstanceID: 0c6e99aa-b559-48fc-ad2c-a31ea9d93956
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:14:24
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:14:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:14:43 PM
+
+Message: HandlingInstanceID: 22a55c55-8a9a-491b-a0f7-02b2a29f4dbf
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:14:43
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:14:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:15:02 PM
+
+Message: HandlingInstanceID: 95be10cb-d8bd-41fd-9632-1e874208e566
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:15:02
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:15:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:15:21 PM
+
+Message: HandlingInstanceID: ce12dffa-ece3-400d-acba-1b2458fd5e37
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:15:21
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:15:21 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:15:47 PM
+
+Message: HandlingInstanceID: b3fc8f0f-c785-41a4-8d91-3360fd1906dd
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:15:47
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:15:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:16:02 PM
+
+Message: HandlingInstanceID: 1dba61cd-2cfd-41f8-b144-00f49b2366ef
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:16:02
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:16:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:16:22 PM
+
+Message: HandlingInstanceID: 2f32e932-a865-4b05-a03f-473bcd21401c
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:16:22
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:16:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:16:39 PM
+
+Message: HandlingInstanceID: 3b3e2241-2e94-401e-b6f2-01131d50d2a1
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:16:39
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:16:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:17:16 PM
+
+Message: HandlingInstanceID: b4d23a5d-91e0-417a-9889-767953495cea
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:17:16
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:17:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 12:17:42 PM
+
+Message: HandlingInstanceID: 4167854e-ecef-4c1f-af6e-bec9abf69a8c
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 14:17:42
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 12:17:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:07:10 PM
+
+Message: HandlingInstanceID: a7237bf7-e116-4e6c-970b-49f6b72c9942
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:07:10
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:07:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:21:46 PM
+
+Message: HandlingInstanceID: 79daf4dc-f4b0-439c-88f4-50a3eb66a4f6
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:21:46
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:21:46 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:26:13 PM
+
+Message: HandlingInstanceID: d9fb67a7-9442-44a9-8b0a-02f5b7da91a6
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:26:13
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:26:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:41:40 PM
+
+Message: HandlingInstanceID: 6e39cf80-53b2-4faf-99ab-6643543bcb27
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:41:40
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:41:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:43:10 PM
+
+Message: HandlingInstanceID: 84994a63-face-4a1b-b6a0-869bf784241b
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:43:10
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:43:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:49:28 PM
+
+Message: HandlingInstanceID: f5c097da-2992-4236-a077-4ecfeaa33f01
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:49:28
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:49:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:57:53 PM
+
+Message: HandlingInstanceID: 40f2363e-8b6d-4821-a5b5-3289c4e5882b
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:57:53
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:57:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 01:59:58 PM
+
+Message: HandlingInstanceID: 3994a68d-915c-4fd4-8642-bcb1e68ab2e3
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 15:59:58
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 01:59:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:12396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-20 02:10:18 PM
+
+Message: HandlingInstanceID: df598e67-f4ce-467a-bff5-7d89d5d7f2d4
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/20/2016 16:10:18
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-20 02:10:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131082191953269450
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131082191953269450
+
+ProcessId: 308
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:9044
+
+Extended Properties: 
+----------------------------------------

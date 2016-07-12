@@ -1,0 +1,21 @@
+----------------------------------------
+Timestamp: 5/19/2016 12:25:14 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:25:14 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 12:25:14 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------

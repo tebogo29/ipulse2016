@@ -1,0 +1,196 @@
+body
+{
+    line-height: 0.9 !important;
+}
+
+h1 .sfContentBlock
+{
+    color: #ffffff !important;
+    font-weight: 100 !important;
+    vertical-align: middle !important;
+    font-size: 22px !important;
+}
+
+.sfContentBlock
+{
+    line-height: 1.5!important;
+}
+
+
+.sfNavHorizontalDropDown
+{
+    margin-top: 5px !important;
+    padding: 0 !important;
+    list-style-type: none !important;
+    list-style-image: none !important;
+    background: none !important;
+    float: right !important;
+}
+
+    .sfNavHorizontalDropDown li
+    {
+        border: none !important;
+        position: relative !important;
+        display: inline !important;
+        float: left !important;
+        padding: 0px 15px 0px 15px !important;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-image: url('../siteimages/nav_divider.gif') !important;
+    }
+
+        .sfNavHorizontalDropDown li a
+        {
+            display: block !important;
+            font-size: 14px !important;
+            font-weight: normal !important;
+            color: #ffffff !important;
+            text-decoration: none !important;
+            text-transform: lowercase !important;
+            background-repeat: no-repeat !important;
+            background-position: top center !important;
+            background-image: none !important;
+            padding: 15px 10px 15px 10px !important;
+            z-index: 5000 !important;
+            display: inline-block !important;
+        }
+
+        .sfNavHorizontalDropDown li .k-icon
+        {
+            display: none !important;
+        }
+
+    .sfNavHorizontalDropDown > .k-item > a.k-link.sfSel,
+    .sfNavHorizontalDropDown > .k-item > a.k-link.sfSel:hover,
+    .sfNavHorizontalDropDown > .k-item > a.k-link:hover
+    {
+        background: none !important;
+        color: #fff !important;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        text-decoration: none !important;
+        background-image: url('../siteimages/dot_orange.gif') !important;
+        background-repeat: no-repeat !important;
+        background-position: center 15px !important;
+        padding: 15px 10px 15px 10px !important;
+        z-index: 5000 !important;
+    }
+
+    .sfNavHorizontalDropDown > .k-item > a.k-link.sfSel
+    {
+        margin: 0 !important;
+    }
+
+
+
+
+    .sfNavHorizontalDropDown .k-popup
+    {
+        background: none !important;
+        margin: 0px !important;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        width: 150px !important;
+        color: #ffffff !important;
+        background-image: none !important;
+        padding: 5px !important;
+        z-index: 5000 !important;
+    }
+
+        .sfNavHorizontalDropDown .k-popup li
+        {
+            background: #423E3E !important;
+            margin: 0px !important;
+            padding: 0px 0px 0px 0px !important;
+            display: list-item !important;
+            float: none !important;
+            text-align: center !important;
+            height: 25px !important;
+            z-index: 5000 !important;
+        }
+
+            .sfNavHorizontalDropDown .k-popup li a
+            {
+                margin: 0px !important;
+                font-size: 14px !important;
+                font-weight: normal !important;
+                width: 150px !important;
+                color: #ffffff !important;
+                background-image: none !important;
+                padding: 5px !important;
+                z-index: 5000 !important;
+            }
+
+
+    .sfNavHorizontalDropDown li li a.k-link
+    {
+        margin: 0px !important;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        width: 150px !important;
+        color: #ffffff !important;
+        background-image: none !important;
+        padding: 5px !important;
+        z-index: 5000 !important;
+        height: 15px !important;
+        line-height: 15px !important;
+        width: 140px !important;
+    }
+
+        .sfNavHorizontalDropDown li li a.k-link:hover
+        {
+            color: #000000 !important;
+            background-image: none !important;
+            background-color: #F7931B !important;
+            margin: 0px !important;
+            padding: 5px !important;
+        }
+
+        .sfNavHorizontalDropDown li li a.k-link.sfSel
+        {
+            color: #000000 !important;
+            background-image: none !important;
+            background-color: #F7931B !important;
+            margin: 0px !important;
+            padding: 5px !important;
+        }
+
+
+.HpBlackBlock
+{
+    background-color:#010101 !important;
+    padding:0px 28px !important;
+    margin-bottom:14px !important;
+}
+
+.sfnewsListTitleDateSummary h2.sfnewsTitle{
+    padding: 0px 0px 10px 0px !important;
+    margin: 0px !important;
+}
+
+.sfnewsFullStory
+{
+    padding: 10px 0px 0px 10px !important;
+    margin: 0px !important;
+    display: block !important;
+
+}
+
+.HPNewsTemplate .sfnewsListItem {
+padding-bottom: 45px !important;
+display: block !important;
+float: left !important;
+width: 190px !important;
+padding-right: 17px !important;
+}
+
+.HPNewsTemplate
+{
+    line-height:1.5 !important;
+}
+.HPNewsTemplate  .Day,
+.HPNewsTemplate  .Month,
+.HPNewsTemplate  .Year
+{
+    line-height:1.3 !important;
+}

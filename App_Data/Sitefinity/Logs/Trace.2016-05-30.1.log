@@ -1,0 +1,130 @@
+----------------------------------------
+Timestamp: 2016-05-26 04:26:15 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 04:26:15 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 04:26:15 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 04:26:16 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 04:26:16 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 04:26:45 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 04:26:45 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-27 09:58:53 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-27 09:58:53 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-27 09:58:53 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-27 09:58:53 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-27 09:58:53 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-27 09:59:23 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-27 09:59:23 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/27/2016 12:42:03 PM
+
+Message: Telerik.OpenAccess.Exceptions.DataStoreException: Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT  TOP(??T) a.[content_id] AS COL1, a.[description_] AS COL2, a.[title_] AS COL3, a.[url_name_] AS COL4, a.[allow_comments] AS COL5, a.[allow_track_backs] AS COL6, a.[app_name] AS COL7, a.[approve_comments] AS COL8, a.[content_state] AS COL9, a.[date_created] AS COL10, a.[default_page_id] AS COL11, a.[draft_culture] AS COL12, a.[email_author] AS COL13, a.[expiration_date] AS COL14, a.[include_in_sitemap] AS COL15, a.[last_modified] AS COL16, a.[last_modified_by] AS COL17, a.[original_content_id] AS COL18, a.[ownr] AS COL19, a.[post_rights] AS COL20, a.[publication_date] AS COL21, a.[source_key] AS COL22, a.[status] AS COL23, a.[vrsion] AS COL24, a.[views_count] AS COL25, a.[visible] AS COL26, a.[votes_count] AS COL27, a.[votes_sum] AS COL28, a.[approval_workflow_state_] AS COL29, a.[author_] AS COL30, a.[content_] AS COL31, a.[item_default_url_] AS COL32, a.[summary_] AS COL33, a.[can_inherit_permissions] AS COL34, a.[inherits_permissions] AS COL35, a.[source_name] AS COL36, a.[source_site] AS COL37, a.[was_published] AS COL38, a.[voa_version] AS COL39 FROM [sf_news_items] a WHERE a.[app_name] = ?                                       AND a.[visible] <> 0 AND a.[status] = 2 ORDER BY COL21 DESC  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute() ---> System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+   --- End of inner exception stack trace ---
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.executeQueryAll(ApplicationContext context, ImmutableQueryDetails query, CompiledQuery compiledQuery, QueryParameters parameters, Int32 skip, Int32 take)
+   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.getAllQueryResults(CompiledQuery cq, QueryParameters parameters, Int32 skip, Int32 take)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Resolve()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.Modules.News.Web.UI.MasterListView.InitializeListView(IQueryable`1 query, Nullable`1 totalCount)
+   at Telerik.Sitefinity.Modules.News.Web.UI.MasterListView.InitializeControls(GenericContainer container, IContentViewDefinition definition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------

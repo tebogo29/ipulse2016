@@ -1,0 +1,913 @@
+----------------------------------------
+Timestamp: 6/20/2016 9:07:12 AM
+
+Message: HandlingInstanceID: 2ae769cb-6799-457b-9b0a-47af8a62268f
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 11:07:12
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 9:07:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11760
+
+Extended Properties: Url - /2014/04/01/Integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 9:07:22 AM
+
+Message: HandlingInstanceID: f4eb89c5-370b-450a-94bf-63bb9b72e7a1
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 11:07:22
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 9:07:22 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11760
+
+Extended Properties: Url - /2014/04/01/Integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 9:09:04 AM
+
+Message: HandlingInstanceID: 4e32f2f8-cca3-4612-b1b8-dbe49b28afcf
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 11:09:04
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 9:09:04 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9096
+
+Extended Properties: Url - /2014/04/01/Integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 9:15:09 AM
+
+Message: HandlingInstanceID: 9831a466-48a6-4875-9f07-133a77944fac
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 11:15:09
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 9:15:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6176
+
+Extended Properties: Url - /2014/04/01/integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 9:25:58 AM
+
+Message: HandlingInstanceID: 4ddf3c4b-8972-4c5f-9e92-29c729e4ef53
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 11:25:58
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 9:25:58 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7392
+
+Extended Properties: Url - /2014/04/01/integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 10:31:53 AM
+
+Message: HandlingInstanceID: 2228fbcb-7862-4a3f-afd6-9ea2fc465399
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 12:31:53
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 10:31:53 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11604
+
+Extended Properties: Url - /2014/04/01/integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 10:31:57 AM
+
+Message: HandlingInstanceID: 54e4e389-faed-4d01-8b58-411b204664a3
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 12:31:57
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 10:31:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11604
+
+Extended Properties: Url - /2014/04/01/integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 10:53:00 AM
+
+Message: HandlingInstanceID: 733dd8f3-12d3-4f92-bd69-4ca6f84789f8
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 12:53:00
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 10:53:00 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10088
+
+Extended Properties: Url - /2014/04/01/Integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 10:53:28 AM
+
+Message: HandlingInstanceID: 3e4258ac-4c6b-44aa-83ac-679ee1918ef9
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/20/2016 12:53:28
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2014/04/01/Integrate-visitor-management-and-access-control' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content content, IManager manager, List`1 additionalUrlNames, Boolean additionalUrlsRedirectToDefault, Boolean excludeDefault)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentUsingWorkflow(ContentItemContext`1 context, String parentId, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Modules.ContentServiceBase`5.SaveContentInternal(ContentItemContext`1 context, String providerName, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 10:53:28 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10088
+
+Extended Properties: Url - /2014/04/01/Integrate-visitor-management-and-access-control
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2016 2:24:58 PM
+
+Message: HandlingInstanceID: 4e341095-5c16-412e-8352-4ec355d562cf
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/20/2016 16:24:58
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/20/2016 2:24:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131108786180975965
+ThreadIdentity : kyle
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131108786180975965
+
+ProcessId: 13740
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7856
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-06-21 07:14:15 AM
+
+Message: HandlingInstanceID: 4436b49c-865c-4703-818c-6df03e77ee22
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+06/21/2016 09:14:14
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE ipulse_2016' : Database 'ipulse_2016' already exists. Choose a different database name.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_9e752a9426b048f184792559b14dc726.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-06-21 07:14:15 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131109667707901234
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : SQL exception on 'CREATE DATABASE ipulse_2016' : Database 'ipulse_2016' already exists. Choose a different database name.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Database 'ipulse_2016' already exists. Choose a different database name. ---> System.Data.SqlClient.SqlException: Database 'ipulse_2016' already exists. Choose a different database name.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	Reason : Runtime
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Database 'ipulse_2016' already exists. Choose a different database name.
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 1801
+		ArrayBindIndex : -1
+		Number : 1801
+		ObjectId : 
+		Description : Database 'ipulse_2016' already exists. Choose a different database name.
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 executeUpdate(System.String)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+
+			Inner Exception
+			---------------
+			Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : Database 'ipulse_2016' already exists. Choose a different database name.
+			Source : .Net SqlClient Data Provider
+			Help link : 
+			Errors : System.Data.SqlClient.SqlErrorCollection
+			ClientConnectionId : 363f9163-4f01-44ca-8791-20f37779d387
+			Class : 16
+			LineNumber : 1
+			Number : 1801
+			Procedure : 
+			Server : GOBLIN\SQL2008R2
+			State : 3
+			ErrorCode : -2146232060
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+			HResult : -2146232060
+			Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+			   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+			   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+			   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+			   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131109667707901234
+
+ProcessId: 4056
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-06-21 07:14:16 AM
+
+Message: HandlingInstanceID: a03ad596-0d3f-4863-acc9-0fb313132f32
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+06/21/2016 09:14:16
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE ipulse_2016' : Database 'ipulse_2016' already exists. Choose a different database name.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_9e752a9426b048f184792559b14dc726.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-06-21 07:14:16 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131109667707901234
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : SQL exception on 'CREATE DATABASE ipulse_2016' : Database 'ipulse_2016' already exists. Choose a different database name.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Database 'ipulse_2016' already exists. Choose a different database name. ---> System.Data.SqlClient.SqlException: Database 'ipulse_2016' already exists. Choose a different database name.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	Reason : Runtime
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Database 'ipulse_2016' already exists. Choose a different database name.
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 1801
+		ArrayBindIndex : -1
+		Number : 1801
+		ObjectId : 
+		Description : Database 'ipulse_2016' already exists. Choose a different database name.
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 executeUpdate(System.String)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+
+			Inner Exception
+			---------------
+			Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : Database 'ipulse_2016' already exists. Choose a different database name.
+			Source : .Net SqlClient Data Provider
+			Help link : 
+			Errors : System.Data.SqlClient.SqlErrorCollection
+			ClientConnectionId : 59fd3a41-bf2d-4e76-8195-d002ac41ca62
+			Class : 16
+			LineNumber : 1
+			Number : 1801
+			Procedure : 
+			Server : GOBLIN\SQL2008R2
+			State : 3
+			ErrorCode : -2146232060
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+			HResult : -2146232060
+			Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+			   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+			   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+			   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+			   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+			   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+			   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131109667707901234
+
+ProcessId: 4056
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5364
+
+Extended Properties: 
+----------------------------------------

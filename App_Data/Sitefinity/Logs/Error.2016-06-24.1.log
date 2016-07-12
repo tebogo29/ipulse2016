@@ -1,0 +1,416 @@
+----------------------------------------
+Timestamp: 6/22/2016 7:37:22 AM
+
+Message: HandlingInstanceID: 9ad50f8b-f98e-47a7-9c52-5b5f6976f57a
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/22/2016 09:37:21
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL 'iqsuite' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL 'iqsuite' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String, System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ThrowDuplicateUrlException(String messageFormat, String url)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ValidateUrlExist(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CheckIfUrlIsValid(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/22/2016 7:37:22 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131110522574200729
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131110522574200729
+
+ProcessId: 2372
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3688
+
+Extended Properties: Url - iqsuite
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2016 7:37:38 AM
+
+Message: HandlingInstanceID: 577967e6-669e-4a5b-a747-af042dd5af13
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/22/2016 09:37:38
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL 'iqsuite' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL 'iqsuite' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String, System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ThrowDuplicateUrlException(String messageFormat, String url)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ValidateUrlExist(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CheckIfUrlIsValid(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/22/2016 7:37:38 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131110522574200729
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&workflowOperation=SaveDraft
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131110522574200729
+
+ProcessId: 2372
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3688
+
+Extended Properties: Url - iqsuite
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2016 7:37:47 AM
+
+Message: HandlingInstanceID: 4890e170-d54b-4cc1-84bd-d827b12fe029
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/22/2016 09:37:47
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL 'iqsuite' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL 'iqsuite' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String, System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ThrowDuplicateUrlException(String messageFormat, String url)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ValidateUrlExist(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CheckIfUrlIsValid(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/22/2016 7:37:47 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131110522574200729
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&workflowOperation=SaveDraft
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131110522574200729
+
+ProcessId: 2372
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3688
+
+Extended Properties: Url - iqsuite
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2016 7:38:56 AM
+
+Message: HandlingInstanceID: 04e5cc65-b5ee-4618-a87e-972f12125a18
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+06/22/2016 09:38:56
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access item that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.DynamicModules.Model.DynamicContent GetDataItem(System.Type, System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessDynamicModuleProvider_853296576f884e679ecbddcf5f79bd1e.GetDataItem(Type itemType, Guid id)
+   at Telerik.Sitefinity.DynamicModules.DynamicModuleManager.Provider_Executed(Object sender, ExecutedEventArgs args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/22/2016 7:38:56 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131110522574200729
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/batch/?managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&providerName=OpenAccessProvider&itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product&provider=OpenAccessProvider&sortExpression=LastModified DESC&skip=0&take=50
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90060
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131110522574200729
+
+ProcessId: 2372
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2016 7:40:00 AM
+
+Message: HandlingInstanceID: d635c694-7af2-4619-b5fb-45daa1c37586
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+06/22/2016 09:40:00
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access item that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.DynamicModules.Model.DynamicContent GetDataItem(System.Type, System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessDynamicModuleProvider_853296576f884e679ecbddcf5f79bd1e.GetDataItem(Type itemType, Guid id)
+   at Telerik.Sitefinity.DynamicModules.DynamicModuleManager.Provider_Executed(Object sender, ExecutedEventArgs args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/22/2016 7:40:00 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131110522574200729
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/batch/?managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&providerName=OpenAccessProvider&itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product&provider=OpenAccessProvider&sortExpression=LastModified DESC&skip=0&take=50
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90060
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131110522574200729
+
+ProcessId: 2372
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2016 2:19:18 PM
+
+Message: HandlingInstanceID: 04b6393a-39c0-4602-bf97-ba95ab1173aa
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/22/2016 16:19:18
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/22/2016 2:19:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131110772427754738
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/indoor-biometric-readers/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131110772427754738
+
+ProcessId: 13524
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11284
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2016 2:23:39 PM
+
+Message: HandlingInstanceID: 8f35b0ea-e5c6-4541-ab42-190e1f7b0ae0
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/22/2016 16:23:39
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/22/2016 2:23:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131110772427754738
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131110772427754738
+
+ProcessId: 13524
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8904
+
+Extended Properties: 
+----------------------------------------

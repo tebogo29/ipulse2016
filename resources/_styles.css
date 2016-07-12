@@ -1,0 +1,255 @@
+table, td,th,tr, tt,tbody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	COLOR: #8d7458;
+}
+
+body {
+FONT-SIZE: 11px; COLOR: #FFFFFF; 
+	scrollbar-arrow-color:#385888; 
+	scrollbar-track-color:#F1F1F6; 
+	scrollbar-face-color:#FFFFFF; 
+	scrollbar-highlight-color:#FFFFFF; 
+	scrollbar-3dlight-color:#093978; 
+	scrollbar-darkshadow-color:#093978; 
+	scrollbar-shadow-color:#E8E8F8;
+	margin:0;	
+}
+
+
+H5 {
+	FONT-SIZE: 11px; COLOR: #9B9B9B; FONT-FAMILY: Arial
+}
+.intro {
+	font-size: 13px;
+	color: #939393;
+}
+.copy {
+	color: #FFFFFF;
+	font-size: 11px;
+}
+.copyOrange {
+	text-decoration: none;
+	color: #FF6600;
+}
+.copyRight, .copyRight:active, .copyRight:link, .copyRight:visited
+{
+	color: #666666;
+	font-size: 10px;
+}
+.copyRight:hover,
+{
+	color: #00538D;
+	font-size: 10px;
+	text-decoration: none;
+}
+ 
+.HeaderRight, .HeaderRight:active, .HeaderRight:link, .HeaderRight:visited {
+	color: #939393;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;		
+}
+.HeaderRight:hover
+{
+	color: #7f6745;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;		
+}
+.SmallPrint {
+	font-size: 9px;
+	color: #939393;
+}
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+a:active {
+	text-decoration: none;
+	color: #FF6600;
+}
+.cursor {
+	cursor: auto;
+}
+.form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	padding: 2px;
+	background-color: #ffffff;
+	border: thin none #7f6745;
+}
+.copyBold {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+}
+.TableRow {  font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #FFFFFF}
+.TableRow1 {
+	background-color: #FFFFFF;
+	border: thin none #939393;
+}
+.TableRow2 {  background-color: #F3F5F8}
+.heading {
+	color: #000000;
+	font-size: 12px;
+}
+.sub_header {font-size: 10px; color: #666666;}
+.Heading1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	color: #000000;
+	border: none;
+	text-decoration: none;
+	text-transform: none;
+}
+.Heading2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.Heading3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	border: thin none #939393;
+	text-decoration: none;
+	font-weight: bold;
+}
+.Button {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-color: #FFFFFF; color: #7f6745; font-weight: bold; border: 1px solid #d3d1d1}
+.ButtonTop {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #CCCCCC;
+	border: none;
+	color: #7f6745;
+	font-weight: bold;
+}
+.FormField {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	border: 1px solid #d3d1d1;
+}
+.FormFieldTop {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #ECECEC;
+	border: 1px solid #d3d1d1;
+	color: #7f6745;
+}
+.TableHeader {  font-family: Verdana; font-size: 11px; font-weight: bold; color: #FFFFFF; background-color: #7f6745}
+.TableHeaderRight {  font-family: Verdana; font-size: 11px; font-weight: bold; color: #7f6745;}
+.TableHeaderNegative {  font-family: Verdana; font-size: 11px; font-weight: bold; color: #473927; background-color: #CCCCCC}
+.TableBorder {  border: 1px solid #D5D5D5; background-color: #F3F5F8; color:#7f6745;}
+.TableBorderLight { border: 1px solid #D5D5D5; background-color: #F3F5F8; color:#7f6745;}
+
+.Footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration: none;
+}
+.HeadingRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #990000;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.HeadingTop {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #594831;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+.TopTime {
+	color: #999999;
+	font-size: 11px;
+	list-style-image: url(../Images/icon.gif);
+}
+.PollTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+}
+.More, .More:Active, .More:Link, .More:Visited  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #7f6745;
+}
+.bgFooter {
+	background-attachment: scroll;
+	background-image: url(../images/bg_low.gif);
+	background-repeat: repeat-x;
+	background-position: left;
+}
+.NoHover:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+.capitalize
+{
+	text-transform: capitalize;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+.HeadingFrontTitle {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #7f6745;
+	border: none;
+	text-decoration: none;
+}
+
+.contentTile {
+	background-attachment: scroll;
+	background-image: url(../images/content_tile.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+
+.MyCalendar .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color: #f8931d;
+    color: black;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year,
+.MyCalendar .ajax__calendar_days .ajax__calendar_day{
+    color: black;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_days .ajax__calendar_dayname,
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight:bold;
+}

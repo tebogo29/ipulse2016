@@ -1,0 +1,22 @@
+﻿
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+margin-top: -2px;
+z-index: 1000;
+
+}
+
+/*1st sub level menu*/
+.jqueryslidemenu2 ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+margin-top: -2px;
+z-index: 1000;
+
+}

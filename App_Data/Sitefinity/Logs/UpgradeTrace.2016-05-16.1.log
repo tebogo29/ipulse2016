@@ -1,0 +1,3606 @@
+----------------------------------------
+Timestamp: 2016/05/06 09:45:02 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016/05/06 09:46:16 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016/05/06 09:49:27 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016/05/06 09:50:42 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016/05/06 09:56:17 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016/05/06 09:57:31 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:32:10 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:33:37 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:36 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:36 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:36 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:36 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:36 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- add column for field isDeleted
+ALTER TABLE [sf_meta_fields] ADD [is_deleted] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: UPDATE [sf_meta_fields] SET [is_deleted] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: ALTER TABLE [sf_meta_fields] ALTER COLUMN [is_deleted] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- add column for field allowMultipleRelations
+ALTER TABLE [sf_meta_fields] ADD [allow_multiple_relations] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: UPDATE [sf_meta_fields] SET [allow_multiple_relations] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: ALTER TABLE [sf_meta_fields] ALTER COLUMN [allow_multiple_relations] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- add column for field isProtectedRelation
+ALTER TABLE [sf_meta_fields] ADD [is_protected_relation] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: UPDATE [sf_meta_fields] SET [is_protected_relation] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: ALTER TABLE [sf_meta_fields] ALTER COLUMN [is_protected_relation] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- add column for field isDeleted
+ALTER TABLE [sf_meta_types] ADD [is_deleted] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: UPDATE [sf_meta_types] SET [is_deleted] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: ALTER TABLE [sf_meta_types] ALTER COLUMN [is_deleted] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- add column for field parentTypeId
+ALTER TABLE [sf_meta_types] ADD [parent_type_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- Telerik.Sitefinity.Metadata.Model.ModuleVersion
+CREATE TABLE [sf_module_vrsn] (
+    [id] uniqueidentifier NOT NULL,         -- id
+    [module_name] varchar(255) NULL,        -- moduleName
+    [version] varchar(255) NULL,            -- versionString
+    [previous_version] varchar(255) NULL,   -- previousVersionString
+    [error_msg] NVARCHAR(MAX) NULL,         -- errorMessage
+    CONSTRAINT [pk_sf_module_vrsn] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- Column was read from database as: [cultures] varchar(1000) null
+-- modify column for field cultures
+ALTER TABLE [sf_schema_vrsns] ALTER COLUMN [cultures] varchar(2000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:38 AM
+
+Message: -- Index 'idx_sf_module_vrsn' was not detected in the database. It will be created
+CREATE UNIQUE INDEX [idx_sf_module_vrsn] ON [sf_module_vrsn]([module_name])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:44:41 AM
+
+Message: Upgrading Sitefinity from build version 4300 to 6010.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: Removing an index(indices) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: -- Dropping index 'idx_sf_taxa_attrbutes_val' because the column 'val' used by the index is changed.
+DROP INDEX [idx_sf_taxa_attrbutes_val] ON [sf_taxa_attrbutes]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: -- Column was read from database as: [val] nvarchar(255) null
+-- modify column for field <value>
+ALTER TABLE [sf_taxa_attrbutes] ALTER COLUMN [val] NVARCHAR(1000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: -- add column for field rootTaxonomy
+ALTER TABLE [sf_taxonomies] ADD [root_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:44 AM
+
+Message: -- Index 'idx_sf_taxonomy_statistic' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_taxonomy_statistic] ON [sf_taxonomy_statistic]([data_item_type], [taxon_id], [statistic_type], [item_provider_name])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:45:55 AM
+
+Message: PASSED : OpenAccessPageProvider: Delete obsolete control properties' dependenecies
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Removing a column(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:11 AM
+
+Message: Removing an index(indices) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Dropping index 'idx_sf_cntnt_lnk_attrbutes_val' because the column 'val' used by the index is changed.
+DROP INDEX [idx_sf_cntnt_lnk_attrbutes_val] ON [sf_content_link_attrbutes]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Dropping index 'idx_sf_page_data_attrbutes_val' because the column 'val' used by the index is changed.
+DROP INDEX [idx_sf_page_data_attrbutes_val] ON [sf_page_data_attrbutes]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Dropping index 'idx_sf_page_node_attrbutes_val' because the column 'val' used by the index is changed.
+DROP INDEX [idx_sf_page_node_attrbutes_val] ON [sf_page_node_attrbutes]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field Content.includeInSitemap
+ALTER TABLE [sf_commnt] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_commnt] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_commnt] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field isParentDeleted
+ALTER TABLE [sf_content_link] ADD [is_parent_deleted] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_content_link] SET [is_parent_deleted] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_content_link] ALTER COLUMN [is_parent_deleted] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field isChildDeleted
+ALTER TABLE [sf_content_link] ADD [is_child_deleted] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_content_link] SET [is_child_deleted] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_content_link] ALTER COLUMN [is_child_deleted] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field availableForTemp
+ALTER TABLE [sf_content_link] ADD [available_for_temp] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_content_link] SET [available_for_temp] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_content_link] ALTER COLUMN [available_for_temp] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field availableForMaster
+ALTER TABLE [sf_content_link] ADD [available_for_master] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_content_link] SET [available_for_master] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_content_link] ALTER COLUMN [available_for_master] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field availableForLive
+ALTER TABLE [sf_content_link] ADD [available_for_live] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_content_link] SET [available_for_live] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_content_link] ALTER COLUMN [available_for_live] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Column was read from database as: [val] varchar(255) null
+-- modify column for field <value>
+ALTER TABLE [sf_content_link_attrbutes] ALTER COLUMN [val] nvarchar(1000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field ordinal
+ALTER TABLE [sf_control_properties] ADD [ordinal] real NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_control_properties] SET [ordinal] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_control_properties] ALTER COLUMN [ordinal] real NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field PageDraft.flags
+ALTER TABLE [sf_draft_pages] ADD [flags] int NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field ControlData.personalizationSegmentId
+ALTER TABLE [sf_object_data] ADD [personalization_segment_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field ControlData.isPersonalized
+ALTER TABLE [sf_object_data] ADD [is_personalized] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field ControlData.isOverridedControl
+ALTER TABLE [sf_object_data] ADD [is_overrided_control] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field ControlData.editable
+ALTER TABLE [sf_object_data] ADD [editable] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field ControlData.baseControlId
+ALTER TABLE [sf_object_data] ADD [base_control_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field ControlData.ControlData_personalizedControls
+ALTER TABLE [sf_object_data] ADD [personalization_master_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field TemplateControl.enableOverrideForControl
+ALTER TABLE [sf_object_data] ADD [enable_override_for_control] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field TemplateDraftControl.enableOverrideForControl
+ALTER TABLE [sf_object_data] ADD [enable_override_for_control2] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field navigationNode
+ALTER TABLE [sf_page_data] ADD [page_node_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Column was read from database as: [last_modified] datetime null
+-- modify column for field lastModified
+UPDATE [sf_page_data]
+   SET [last_modified] = getdate() -- Add your own default value here, for when [last_modified] is null.
+ WHERE [last_modified] IS NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_data] ALTER COLUMN [last_modified] datetime NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field flags
+ALTER TABLE [sf_page_data] ADD [flags] int NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_page_data] SET [flags] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_data] ALTER COLUMN [flags] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- dropping unknown column [voa_version]
+ALTER TABLE [sf_page_data] DROP COLUMN [voa_version]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Column was read from database as: [val] varchar(255) null
+-- modify column for field <value>
+ALTER TABLE [sf_page_data_attrbutes] ALTER COLUMN [val] nvarchar(1000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field requireSsl
+ALTER TABLE [sf_page_node] ADD [require_ssl] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_page_node] SET [require_ssl] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_node] ALTER COLUMN [require_ssl] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field priority
+ALTER TABLE [sf_page_node] ADD [priority] real NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_page_node] SET [priority] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_node] ALTER COLUMN [priority] real NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field previousParentId
+ALTER TABLE [sf_page_node] ADD [previous_parent_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field localizationStrategy
+ALTER TABLE [sf_page_node] ADD [loc_strtgy] smallint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_page_node] SET [loc_strtgy] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_node] ALTER COLUMN [loc_strtgy] smallint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field isDeleted
+ALTER TABLE [sf_page_node] ADD [is_deleted] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_page_node] SET [is_deleted] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_node] ALTER COLUMN [is_deleted] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field includeInSearchIndex
+ALTER TABLE [sf_page_node] ADD [inc_in_srch_idx] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_page_node] SET [inc_in_srch_idx] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_node] ALTER COLUMN [inc_in_srch_idx] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- add column for field crawlable
+ALTER TABLE [sf_page_node] ADD [crawlable] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: UPDATE [sf_page_node] SET [crawlable] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: ALTER TABLE [sf_page_node] ALTER COLUMN [crawlable] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- dropping unknown column [voa_version]
+ALTER TABLE [sf_page_node] DROP COLUMN [voa_version]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Column was read from database as: [val] varchar(255) null
+-- modify column for field <value>
+ALTER TABLE [sf_page_node_attrbutes] ALTER COLUMN [val] nvarchar(1000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Telerik.Sitefinity.Pages.Model.PageNodeReference
+CREATE TABLE [sf_page_node_references] (
+    [page_node_id] uniqueidentifier NULL,   -- pageNode
+    [id] uniqueidentifier NOT NULL,         -- id
+    [app_name] varchar(50) NULL,            -- appName
+    CONSTRAINT [pk_sf_page_node_references] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_wrk_itm_id' was not detected in the database. It will be created
+CREATE INDEX [idx_wrk_itm_id] ON [sf_approval_tracking_record]([workflow_item_id], [culture])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_dt_crtd' was not detected in the database. It will be created
+CREATE INDEX [idx_dt_crtd] ON [sf_approval_tracking_record]([date_created])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_sf_cnt_lnk_prnt_itm_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_cnt_lnk_prnt_itm_id] ON [sf_content_link]([parent_item_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_sf_cnt_lnk_chld_type_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_cnt_lnk_chld_type_id] ON [sf_content_link]([child_item_type], [child_item_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_sf_cnt_lnk_chld_itm_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_cnt_lnk_chld_itm_id] ON [sf_content_link]([child_item_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_sf_od_pers_master_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_od_pers_master_id] ON [sf_object_data]([personalization_master_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_sf_page_data_page_node_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_page_data_page_node_id] ON [sf_page_data]([page_node_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_sf_pages_root_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_pages_root_id] ON [sf_page_node]([root_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'sf_idx_pn_split_id_app_name' was not detected in the database. It will be created
+CREATE INDEX [sf_idx_pn_split_id_app_name] ON [sf_page_node_references]([id], [app_name])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:17 AM
+
+Message: -- Index 'idx_sf_pg_nd_rfrncs_pg_node_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_pg_nd_rfrncs_pg_node_id] ON [sf_page_node_references]([page_node_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:19 AM
+
+Message: PASSED : OpenAccessPageProvider: Delete orphaned controls and properties
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:19 AM
+
+Message: PASSED : OpenAccessPageProvider : Upgrade to 5100
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:19 AM
+
+Message: PASSED : OpenAccessPageProvider : Upgrade to 5100 . Updating sf_content_relation
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:19 AM
+
+Message: PASSED : OpenAccessPageProvider : Upgrade to 5100 . Updating sf_rdsgn_media_query_link
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:19 AM
+
+Message: PASSED : OpenAccessPageProvider: Update of pages personalization status
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:19 AM
+
+Message: PASSED : OpenAccessPageProvider: Upgrade to 5612 -  Update of control properties flags
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:23 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:23 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:23 AM
+
+Message: -- add column for field metadata
+ALTER TABLE [sf_version_chnges] ADD [metadata] varchar(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:23 AM
+
+Message: -- add column for field isSyncedItem
+ALTER TABLE [sf_vesion_items] ADD [synced] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:23 AM
+
+Message: UPDATE [sf_vesion_items] SET [synced] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:23 AM
+
+Message: ALTER TABLE [sf_vesion_items] ALTER COLUMN [synced] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:25 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 4701 (method: AddDiscussionsGroupPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:26 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 4900 (method: AddDashboardGroupPage)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:27 AM
+
+Message: PASSED: Delete orphaned additional URL: '~/Sitefinity/Dashboard'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:27 AM
+
+Message: PASSED : Clean duplicated and orhaned additional URLs - 1 duplicated or orphaned additional URLs have been deleted
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:27 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 4913 (Clean duplicated and orhaned additional URLs)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:27 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5100 (Migrates Split Page Nodes into one Page Node with separate PageData for each translation)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:27 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5100 (method: UpgradeMarketingPageNode)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:27 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5400 (Upgrades taxonomy field control tag to use the new front-end widget template.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:27 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5614 (Sets the azure identifier limitation policy for projects prior to 7.3.5614)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- add column for field customXamlxUrl
+ALTER TABLE [sf_workflow_definition] ADD [custom_xamlx_url] nvarchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- add column for field <CultureScope>k__BackingField
+ALTER TABLE [sf_workflow_definition] ADD [culture_scope] varchar(2000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- add column for field allowPublishersToSkipWorkflow
+ALTER TABLE [sf_workflow_definition] ADD [allw_pblshers_to_skip_workflow] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: UPDATE [sf_workflow_definition] SET [allw_pblshers_to_skip_workflow] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: ALTER TABLE [sf_workflow_definition] ALTER COLUMN [allw_pblshers_to_skip_workflow] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- add column for field providerName
+ALTER TABLE [sf_workflow_scope] ADD [provider_name] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- System.Collections.Generic.IList`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.Workflow.Model.WorkflowDefinition.additionalFirstLevelRecipients
+CREATE TABLE [sf_wrkflw_dfntn_ddtnl_frst_lvl] (
+    [id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] varchar(255) NULL,                -- <value>
+    CONSTRAINT [pk_sf_wrkflw_dfntn_dd_436CF226] PRIMARY KEY ([id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- System.Collections.Generic.IList`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.Workflow.Model.WorkflowDefinition.additionalSecondLevelRecipients
+CREATE TABLE [sf_wrkflw_dfntn_ddtnl_scnd_lvl] (
+    [id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] varchar(255) NULL,                -- <value>
+    CONSTRAINT [pk_sf_wrkflw_dfntn_dd_6936DCD4] PRIMARY KEY ([id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: ALTER TABLE [sf_wrkflw_dfntn_ddtnl_frst_lvl] ADD CONSTRAINT [ref_sf_wrkflw_dfntn_d_6A239D1A] FOREIGN KEY ([id]) REFERENCES [sf_workflow_definition]([id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: ALTER TABLE [sf_wrkflw_dfntn_ddtnl_scnd_lvl] ADD CONSTRAINT [ref_sf_wrkflw_dfntn_d_FA8BA617] FOREIGN KEY ([id]) REFERENCES [sf_workflow_definition]([id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- Index 'idx_sf_wrkflw_dfntn_ddtnl_frst' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_wrkflw_dfntn_ddtnl_frst] ON [sf_wrkflw_dfntn_ddtnl_frst_lvl]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: -- Index 'idx_sf_wrkflw_dfntn_ddtnl_scnd' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_wrkflw_dfntn_ddtnl_scnd] ON [sf_wrkflw_dfntn_ddtnl_scnd_lvl]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: PASSED : Remove orphaned columns/tables of Title property of workflow definition, converted to non-localizable
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:30 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5703 (Updates the notification list for all workflows in order to configure notifications for all users in the administrator role.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:31 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5800 (method: UpgradePresentationData)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:31 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5800 (method: RegisterChangeQuestionAndAnswerTemplate)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:31 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 5800 (method: UpgradeDecimalCustomFields)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:46:31 AM
+
+Message: PASSED : SiteInitializer : Upgrade to 6000 (Cleans the SystemConfig from the depricated properties.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:02 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:02 AM
+
+Message: Adding a foreign key constraint(s) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:02 AM
+
+Message: Removing a foreign key constraint(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:02 AM
+
+Message: ALTER TABLE [sf_ec_customer_profile] DROP CONSTRAINT [ref_sf_c_cstmr_prfl_sf_sr_prfl]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:02 AM
+
+Message: ALTER TABLE [sf_sitefinity_profile] DROP CONSTRAINT [ref_sf_stfnty_prfl_sf_sr_prfle]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:02 AM
+
+Message: ALTER TABLE [sf_ec_customer_profile] ADD CONSTRAINT [ref_sf_c_cstmr_prfl_s_6EB624B1] FOREIGN KEY ([id]) REFERENCES [sf_user_profile]([id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:02 AM
+
+Message: ALTER TABLE [sf_sitefinity_profile] ADD CONSTRAINT [ref_sf_stfnty_prfl_sf_125BEED3] FOREIGN KEY ([id]) REFERENCES [sf_user_profile]([id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:04 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:04 AM
+
+Message: Removing a column(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:04 AM
+
+Message: -- dropping unknown column [voa_version]
+ALTER TABLE [sf_roles] DROP COLUMN [voa_version]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:06 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:06 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:06 AM
+
+Message: -- Column was read from database as: [password_question] varchar(255) null
+-- modify column for field passwordQuestion
+ALTER TABLE [sf_users] ALTER COLUMN [password_question] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:09 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:09 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:09 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:09 AM
+
+Message: Removing an index(indices) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:10 AM
+
+Message: -- Index 'idx_cnt_lctn_cnt_id' was detected in the database but with a different configuration. It will be recreated
+DROP INDEX [idx_cnt_lctn_cnt_id] ON [sf_cnt_location_filters]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:10 AM
+
+Message: -- Column was read from database as: [value] nvarchar(1000) null
+-- modify column for field <Value>k__BackingField
+ALTER TABLE [sf_cnt_location_filters] ALTER COLUMN [value] NVARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:10 AM
+
+Message: -- Column was read from database as: [cnt_location_id] uniqueidentifier null
+-- modify column for field <ContentLocation>k__BackingField
+UPDATE [sf_cnt_location_filters]
+   SET [cnt_location_id] = '00000000-0000-0000-0000-000000000000' -- Add your own default value here, for when [cnt_location_id] is null.
+ WHERE [cnt_location_id] IS NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:10 AM
+
+Message: ALTER TABLE [sf_cnt_location_filters] ALTER COLUMN [cnt_location_id] uniqueidentifier NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:10 AM
+
+Message: -- Index 'idx_cnt_lctn_cnt_id' was detected in the database but with a different configuration. It will be recreated
+CREATE INDEX [idx_cnt_lctn_cnt_id] ON [sf_cnt_location_filters]([cnt_location_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:14 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:14 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:14 AM
+
+Message: -- Telerik.Sitefinity.Packaging.Model.Package
+CREATE TABLE [sf_pckgng_pckgs] (
+    [owner] uniqueidentifier NULL,          -- owner
+    [name] varchar(255) NULL,               -- name
+    [last_modified] datetime NOT NULL,      -- lastModified
+    [id] uniqueidentifier NOT NULL,         -- id
+    [hash] varchar(255) NULL,               -- hash
+    CONSTRAINT [pk_sf_pckgng_pckgs] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:18 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:18 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:18 AM
+
+Message: -- add column for field subscriptionListId
+ALTER TABLE [sf_scheduled_tasks] ADD [subscr_lst_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:24 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:24 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:24 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:24 AM
+
+Message: Removing an index(indices) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:25 AM
+
+Message: -- Dropping index 'idx_sf_pblshng_pp_sttngs_ddtnl' because the column 'val' used by the index is changed.
+DROP INDEX [idx_sf_pblshng_pp_sttngs_ddtnl] ON [sf_pblshng_pp_sttngs_ddtnl_dta]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:25 AM
+
+Message: -- Column was read from database as: [val] varchar(255) null
+-- modify column for field <value>
+ALTER TABLE [sf_pblshng_pp_sttngs_ddtnl_dta] ALTER COLUMN [val] varchar(1000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:25 AM
+
+Message: -- add column for field TwitterPipeSettings.searchPattern
+ALTER TABLE [sf_publishing_pipe_settings] ADD [search_pattern] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:25 AM
+
+Message: -- add column for field isSharedWithAllSites
+ALTER TABLE [sf_publishing_point] ADD [is_shared_with_all_sites] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:25 AM
+
+Message: UPDATE [sf_publishing_point] SET [is_shared_with_all_sites] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:25 AM
+
+Message: ALTER TABLE [sf_publishing_point] ALTER COLUMN [is_shared_with_all_sites] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:27 AM
+
+Message: PASSED : Wrapped_OpenAccessNewsProvider_9691be7d6eda41ac92696b2af943653d : Upgrade to 5100. Update approval records.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:27 AM
+
+Message: PASSED : Wrapped_OpenAccessNewsProvider_9691be7d6eda41ac92696b2af943653d : Upgrade to 5100 (Upgrade approval tracking record map)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:28 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:28 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:29 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_news_items] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:29 AM
+
+Message: UPDATE [sf_news_items] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:29 AM
+
+Message: ALTER TABLE [sf_news_items] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:29 AM
+
+Message: -- add column for field wasPublished
+ALTER TABLE [sf_news_items] ADD [was_published] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:29 AM
+
+Message: PASSED : NewsModule : Upgrade to 5700 (Adds a new permission set to the security root of the module, so that News module page access is configurable separately from the news items access. This is related to the site map generation in the backend menu. Redundant comments permissions have been removed.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_blog_posts] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: UPDATE [sf_blog_posts] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: ALTER TABLE [sf_blog_posts] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: -- add column for field wasPublished
+ALTER TABLE [sf_blog_posts] ADD [was_published] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_blogs] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: UPDATE [sf_blogs] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:34 AM
+
+Message: ALTER TABLE [sf_blogs] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:47:35 AM
+
+Message: PASSED : Wrapped_OpenAccessBlogProvider_f1cfff9bf0364a7184f9c3efd14b59f6 : Upgrade to 5100. Update approval records.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:18 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:18 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:18 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:19 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_events] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:19 AM
+
+Message: UPDATE [sf_events] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:19 AM
+
+Message: ALTER TABLE [sf_events] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:19 AM
+
+Message: -- add column for field wasPublished
+ALTER TABLE [sf_events] ADD [was_published] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:19 AM
+
+Message: -- add column for field timeZoneId
+ALTER TABLE [sf_events] ADD [timezone_id] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:19 AM
+
+Message: -- Column was read from database as: [parent_id] uniqueidentifier null
+-- modify column for field parent
+UPDATE [sf_events]
+   SET [parent_id] = '00000000-0000-0000-0000-000000000000' -- Add your own default value here, for when [parent_id] is null.
+ WHERE [parent_id] IS NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:19 AM
+
+Message: ALTER TABLE [sf_events] ALTER COLUMN [parent_id] uniqueidentifier NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:20 AM
+
+Message: PASSED : Wrapped_OpenAccessEventProvider_a3841ad2a3114c6a8bd43071edf1389b : Upgrade to 5100. Update approval records.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:22 AM
+
+Message: PASSED : EventsModule : Upgrade to 6000 (Add one day for multiple all day event or one minute for single all day event or one second for recurrent all day event in order to display them correctly in RadScheduler and when export events to iCal, Google calendar and Outlook.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:34 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:34 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:34 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:34 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:34 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:34 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:34 AM
+
+Message: Removing an index(indices) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Index 'idx_sf_lbrrs_thmbnl_prfles_val' was detected in the database but with a different configuration. It will be recreated
+DROP INDEX [idx_sf_lbrrs_thmbnl_prfles_val] ON [sf_lbraries_thumbnail_profiles]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field isDeleted
+ALTER TABLE [sf_folders] ADD [is_deleted] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: UPDATE [sf_folders] SET [is_deleted] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: ALTER TABLE [sf_folders] ALTER COLUMN [is_deleted] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field coverId
+ALTER TABLE [sf_folders] ADD [cover_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Column was read from database as: [val] varchar(255) null
+-- modify column for field <value>
+ALTER TABLE [sf_lbraries_thumbnail_profiles] ALTER COLUMN [val] nvarchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_libraries] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: UPDATE [sf_libraries] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: ALTER TABLE [sf_libraries] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field isDeleted
+ALTER TABLE [sf_libraries] ADD [is_deleted] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: UPDATE [sf_libraries] SET [is_deleted] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: ALTER TABLE [sf_libraries] ALTER COLUMN [is_deleted] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field coverId
+ALTER TABLE [sf_libraries] ADD [cover_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_media_content] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: UPDATE [sf_media_content] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: ALTER TABLE [sf_media_content] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field wasPublished
+ALTER TABLE [sf_media_content] ADD [was_published] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field thumbnailsVersion
+ALTER TABLE [sf_media_content] ADD [tmb_vrsn] int NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: UPDATE [sf_media_content] SET [tmb_vrsn] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: ALTER TABLE [sf_media_content] ALTER COLUMN [tmb_vrsn] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field MediaFileUrlName_
+ALTER TABLE [sf_media_content] ADD [media_file_url_name_] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Telerik.Sitefinity.Libraries.Model.MediaFileLink
+CREATE TABLE [sf_media_file_links] (
+    [width] int NULL,                       -- width
+    [total_size] bigint NULL,               -- totalSize
+    [number_of_chunks] int NULL,            -- numberOfChunks
+    [mime_type] varchar(255) NULL,          -- mimeType
+    [content_id] uniqueidentifier NULL,     -- mediaContent
+    [id] uniqueidentifier NOT NULL,         -- <Id>k__BackingField
+    [height] int NULL,                      -- height
+    [file_path] NVARCHAR(255) NULL,         -- filePath
+    [file_id] uniqueidentifier NULL,        -- fileId
+    [extension] varchar(255) NULL,          -- extension
+    [default_url] NVARCHAR(510) NULL,       -- defaultUrl
+    [culture] int NOT NULL,                 -- culture
+    [chunk_size] int NULL,                  -- chunkSize
+    [app_name] VARCHAR(255) NULL,           -- <ApplicationName>k__BackingField
+    CONSTRAINT [pk_sf_media_file_links] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Telerik.Sitefinity.Libraries.Model.MediaFileUrl
+CREATE TABLE [sf_media_file_urls] (
+    [url] NVARCHAR(510) NULL,               -- <Url>k__BackingField
+    [redirect_to_default] tinyint NOT NULL, -- <RedirectToDefault>k__BackingField
+    [media_file_link_id] uniqueidentifier NULL, -- <MediaFileLink>k__BackingField
+    [is_default] tinyint NULL,              -- <IsDefault>k__BackingField
+    [id] uniqueidentifier NOT NULL,         -- <Id>k__BackingField
+    [app_name] VARCHAR(255) NULL,           -- <ApplicationName>k__BackingField
+    CONSTRAINT [pk_sf_media_file_urls] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Column was read from database as: [nme] varchar(10) null
+-- modify column for field name
+ALTER TABLE [sf_media_thumbnails] ALTER COLUMN [nme] NVARCHAR(10) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- add column for field culture
+ALTER TABLE [sf_media_thumbnails] ADD [culture] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Index 'idx_sf_lbrrs_thmbnl_prfles_val' was detected in the database but with a different configuration. It will be recreated
+CREATE INDEX [idx_sf_lbrrs_thmbnl_prfles_val] ON [sf_lbraries_thumbnail_profiles]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Index 'idx_sf_md_fle_links_content_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_md_fle_links_content_id] ON [sf_media_file_links]([content_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Index 'sf_idx_mfu_url_mfl' was not detected in the database. It will be created
+CREATE UNIQUE INDEX [sf_idx_mfu_url_mfl] ON [sf_media_file_urls]([url], [media_file_link_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:37 AM
+
+Message: -- Index 'idx_sf_md_fl_rls_md_fl_link_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_md_fl_rls_md_fl_link_id] ON [sf_media_file_urls]([media_file_link_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:38 AM
+
+Message: PASSED : Wrapped_OpenAccessLibrariesProvider_cc7b6c3368004e609308f5b51a8e4cc8 : Upgrade to 5100. Update approval records.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:40 AM
+
+Message: PASSED: INSERT INTO sf_media_file_links ( sf_media_file_links.id ,  sf_media_file_links.width ,  sf_media_file_links.total_size ,  sf_media_file_links.number_of_chunks ,  sf_media_file_links.content_id ,  sf_media_file_links.height ,  sf_media_file_links.file_path ,  sf_media_file_links.file_id ,  sf_media_file_links.extension ,  sf_media_file_links.default_url ,  sf_media_file_links.culture ,  sf_media_file_links.chunk_size ,  sf_media_file_links.mime_type ,  sf_media_file_links.app_name ) SELECT  NEWID() , sf_media_content.width, sf_media_content.total_size, sf_media_content.number_of_chunks, sf_media_content.content_id, sf_media_content.height, sf_media_content.file_path, sf_media_content.file_id, sf_media_content.extension, sf_url_data.url, sf_url_data.culture, sf_media_content.chunk_size, sf_media_content.mime_type, sf_media_content.app_name FROM sf_media_content
+INNER JOIN sf_url_data ON sf_media_content.content_id = sf_url_data.content_id WHERE  sf_url_data.is_default  = 1  , Total Rows Affected: 540
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:41 AM
+
+Message: PASSED: UPDATE sf_media_file_links SET sf_media_file_links.width = sf_media_content.width2, sf_media_file_links.height = sf_media_content.height2  FROM sf_media_content 
+INNER JOIN sf_media_file_links ON sf_media_content.content_id = sf_media_file_links.content_id WHERE  sf_media_file_links.width  IS NULL    AND   sf_media_file_links.height  IS NULL    AND   sf_media_content.width2  IS NOT NULL    AND   sf_media_content.height2  IS NOT NULL  , Total Rows Affected: 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:42 AM
+
+Message: PASSED: DELETE sf_media_file_links FROM sf_media_file_links WHERE  sf_media_file_links.culture  = 127    AND   sf_media_file_links.content_id  IN (SELECT sf_media_file_links.content_id FROM sf_media_file_links 
+ GROUP BY sf_media_file_links.content_id
+ HAVING  COUNT(sf_media_file_links.id)   > 1) , Total Rows Affected: 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:42 AM
+
+Message: PASSED: 
+DELETE U1
+FROM sf_url_data U1
+INNER JOIN sf_url_data U2 ON U1.content_id = U2.content_id AND U1.url = U2.url
+INNER JOIN sf_media_file_links ON sf_media_file_links.content_id = U1.content_id
+WHERE U1.id <> U2.id
+AND U1.is_default = 0 AND U2.is_default = 1
+, Total Rows Affected: 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:42 AM
+
+Message: PASSED: INSERT INTO sf_media_file_urls ( sf_media_file_urls.id ,  sf_media_file_urls.url ,  sf_media_file_urls.media_file_link_id ,  sf_media_file_urls.is_default ,  sf_media_file_urls.redirect_to_default ,  sf_media_file_urls.app_name ) SELECT  NEWID() , sf_url_data.url, sf_media_file_links.id, sf_url_data.is_default, sf_url_data.redirect, sf_url_data.app_name FROM sf_url_data
+INNER JOIN sf_media_file_links ON sf_url_data.content_id = sf_media_file_links.content_id AND sf_url_data.culture = sf_media_file_links.culture, Total Rows Affected: 818
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:42 AM
+
+Message: PASSED: ALTER TABLE sf_media_content ALTER COLUMN number_of_chunks int NULL , Total Rows Affected: -1
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:42 AM
+
+Message: PASSED: ALTER TABLE sf_media_content ALTER COLUMN total_size bigint NULL , Total Rows Affected: -1
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:49:42 AM
+
+Message: PASSED: ALTER TABLE sf_media_content ALTER COLUMN chunk_size int NULL , Total Rows Affected: -1
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:50:29 AM
+
+Message: Libraries: Media player mode changed to Silverlight
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:50:29 AM
+
+Message: Libraries: Html video tag for content blocks changed to Object
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:50:29 AM
+
+Message: Libraries: Upload mode changed to Html5
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:51:43 AM
+
+Message: Libraries: Installed system library for page templates' thumbnails, uploaded default thumbnails.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:51:43 AM
+
+Message: PASSED : Setting Thumbnail Generator Hash Algorithm. Thumbnail Generator Hash Algorithm has been set to MD5
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:51:43 AM
+
+Message: PASSED : Changing the AzureBlobStorageProvider namespace and assembly.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:51:49 AM
+
+Message: PASSED : LibrariesModule : Upgrade to 5900 (AzureBlobStorageProvider is now extracted in a separate Git project. The new assembly is Telerik.Sitefinity.Azure and the new namespace is Telerik.Sitefinity.Azure.BlobStorage.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:19 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:19 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:20 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_list_items] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:20 AM
+
+Message: UPDATE [sf_list_items] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:20 AM
+
+Message: ALTER TABLE [sf_list_items] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:20 AM
+
+Message: -- add column for field Telerik.Sitefinity.GenericContent.Model.Content.includeInSitemap
+ALTER TABLE [sf_lists] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:20 AM
+
+Message: UPDATE [sf_lists] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:20 AM
+
+Message: ALTER TABLE [sf_lists] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:21 AM
+
+Message: PASSED : Wrapped_OpenAccessListsDataProvider_c28e5d501ff94cbe9628fabba4039c33 : Upgrade to 5100. Update approval records.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:39 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:39 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:39 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:40 AM
+
+Message: -- Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry
+CREATE TABLE [sf_dashboard_log] (
+    [user_id] uniqueidentifier NULL,        -- userId
+    [item_title] NVARCHAR(255) NULL,        -- title
+    [timestamp] datetime NOT NULL,          -- timestamp
+    [status] varchar(255) NULL,             -- status
+    [site_id] uniqueidentifier NULL,        -- siteId
+    [language] varchar(255) NULL,           -- language
+    [item_type] VARCHAR(255) NULL,          -- itemType
+    [item_provider] varchar(255) NULL,      -- itemProvider
+    [item_id] VARCHAR(255) NULL,            -- itemId
+    [id] uniqueidentifier NOT NULL,         -- id
+    CONSTRAINT [pk_sf_dashboard_log] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:40 AM
+
+Message: -- Telerik.Sitefinity.Dashboard.Model.WatchListEntry
+CREATE TABLE [sf_dashboard_watchlist] (
+    [user_id] uniqueidentifier NULL,        -- userId
+    [id] uniqueidentifier NOT NULL,         -- id
+    [dashboard_log_entry_id] uniqueidentifier NULL, -- dashboardLogEntryId
+    CONSTRAINT [pk_sf_dashboard_watchlist] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:40 AM
+
+Message: -- Index 'idx_sf_dashboard_log_time' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_dashboard_log_time] ON [sf_dashboard_log]([timestamp])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:40 AM
+
+Message: -- Index 'idx_sf_dashboard_log_id_type' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_dashboard_log_id_type] ON [sf_dashboard_log]([item_id], [item_type])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:53:40 AM
+
+Message: -- Index 'idx_sf_dshbrd_watch_entry_usr' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_dshbrd_watch_entry_usr] ON [sf_dashboard_watchlist]([dashboard_log_entry_id], [user_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:11 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:11 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:12 AM
+
+Message: -- add column for field Content.includeInSitemap
+ALTER TABLE [sf_content_items] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:12 AM
+
+Message: UPDATE [sf_content_items] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:12 AM
+
+Message: ALTER TABLE [sf_content_items] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Adding a foreign key constraint(s) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:22 AM
+
+Message: Removing a foreign key constraint(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_address] DROP CONSTRAINT [ref_frwtrmdls_ddrss_sf_dynmc_c]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_banner] DROP CONSTRAINT [ref_frwtrmdls_bnnr_sf_dynmc_cn]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_category] DROP CONSTRAINT [ref_frwtrmdls_ctgry_sf_dynmc_c]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_hppopupbanner] DROP CONSTRAINT [ref_frwtrmdls_hppppbnnr_sf_dyn]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_mapcountry] DROP CONSTRAINT [ref_frwtrmdls_mpcntry_sf_dynmc]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_partner] DROP CONSTRAINT [ref_frwtrmdls_prtnr_sf_dynmc_c]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_people] DROP CONSTRAINT [ref_frwtrmdls_ppl_sf_dynmc_cnt]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_popupscreen] DROP CONSTRAINT [ref_frwtrmdls_pppscrn_sf_dynmc]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_product] DROP CONSTRAINT [ref_frwtrmdls_prdct_sf_dynmc_c]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_testimonial] DROP CONSTRAINT [ref_frwtrmdls_tstmnl_sf_dynmc_]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_trainingcertificate] DROP CONSTRAINT [ref_frwtrmdls_trnngcrtfct_sf_d]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field wasPublished
+ALTER TABLE [sf_dynamic_content] ADD [was_published] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field ItemDefaultUrl_
+ALTER TABLE [sf_dynamic_content] ADD [item_default_url_] NVARCHAR(510) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field inheritsPermissions
+ALTER TABLE [sf_dynamic_content] ADD [inherits_permissions] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: UPDATE [sf_dynamic_content] SET [inherits_permissions] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [sf_dynamic_content] ALTER COLUMN [inherits_permissions] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field includeInSitemap
+ALTER TABLE [sf_dynamic_content] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: UPDATE [sf_dynamic_content] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [sf_dynamic_content] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field canInheritPermissions
+ALTER TABLE [sf_dynamic_content] ADD [can_inherit_permissions] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: UPDATE [sf_dynamic_content] SET [can_inherit_permissions] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [sf_dynamic_content] ALTER COLUMN [can_inherit_permissions] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- Telerik.Sitefinity.Model.ProviderTrackedList`1[[Telerik.Sitefinity.Security.Model.Permission, Telerik.Sitefinity.Model, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563]] Telerik.Sitefinity.DynamicModules.Model.DynamicContent.permissions
+CREATE TABLE [sf_dynmc_cntent_sf_permissions] (
+    [base_id] uniqueidentifier NOT NULL,
+    [id] uniqueidentifier NOT NULL,
+    CONSTRAINT [pk_sf_dynmc_cntnt_sf__A0DCFB00] PRIMARY KEY ([base_id], [id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field relatedDataType
+ALTER TABLE [sf_mb_dynamic_module_field] ADD [related_data_type] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field relatedDataProvider
+ALTER TABLE [sf_mb_dynamic_module_field] ADD [related_data_provider] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field frontendWidgetTypeName
+ALTER TABLE [sf_mb_dynamic_module_field] ADD [frontend_widget_type_name] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- add column for field frontendWidgetLabel
+ALTER TABLE [sf_mb_dynamic_module_field] ADD [frontend_widget_label] varchar(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_address] ADD CONSTRAINT [ref_frwtrmdls_ddrss_s_46924BE0] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_banner] ADD CONSTRAINT [ref_frwtrmdls_bnnr_sf_80939B81] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_category] ADD CONSTRAINT [ref_frwtrmdls_ctgry_s_2A425DC2] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_hppopupbanner] ADD CONSTRAINT [ref_frwtrmdls_hppppbn_905B5B33] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_mapcountry] ADD CONSTRAINT [ref_frwtrmdls_mpcntry_FF76D2A6] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_partner] ADD CONSTRAINT [ref_frwtrmdls_prtnr_s_2FF294C1] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_people] ADD CONSTRAINT [ref_frwtrmdls_ppl_sf__63785FA6] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_popupscreen] ADD CONSTRAINT [ref_frwtrmdls_pppscrn_FFC587CB] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_product] ADD CONSTRAINT [ref_frwtrmdls_prdct_s_5DED6259] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_testimonial] ADD CONSTRAINT [ref_frwtrmdls_tstmnl__8A2F6964] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [firewatermodules_trainingcertificate] ADD CONSTRAINT [ref_frwtrmdls_trnngcr_DDEAAD5B] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [sf_dynmc_cntent_sf_permissions] ADD CONSTRAINT [ref_sf_dynmc_cntnt_sf_35AE9BBA] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: ALTER TABLE [sf_dynmc_cntent_sf_permissions] ADD CONSTRAINT [ref_sf_dynmc_cntnt_sf_50D77764] FOREIGN KEY ([id]) REFERENCES [sf_permissions]([id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- Index 'idx_sf_dyn_sys_prnt_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_dyn_sys_prnt_id] ON [sf_dynamic_content]([application_name], [system_parent_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:24 AM
+
+Message: -- Index 'idx_sf_dynmc_cntnt_sf_prmssns_' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_dynmc_cntnt_sf_prmssns_] ON [sf_dynmc_cntent_sf_permissions]([id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:39 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Category sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:39 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:39 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:39 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Testimonial sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:39 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.MapCountry sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:39 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Address sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:40 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.PopupScreen sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:40 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.HpPopupBanner sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:40 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:40 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:54:40 AM
+
+Message: FAILED : Failed to upgrade dynamic type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Partner sorting - An item with the same key has already been added.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:11 AM
+
+Message: PASSED : Wrapped_OpenAccessDynamicModuleProvider_45c8a3d92b2b42208225268e45678d03 : Upgrade to 5100. Update approval records.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:13 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:15 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:15 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:16 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:19 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:21 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:21 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:22 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:23 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:23 AM
+
+Message: PASSED : Upgrade DefaultUrls for type: 'Telerik.Sitefinity.DynamicModules.Model.DynamicContent' and manager: 'Telerik.Sitefinity.DynamicModules.DynamicModuleManager'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:55:27 AM
+
+Message: PASSED : ModuleBuilderModule : Upgrade to 5900 (Upgrades the DynamicModuleConfig file to change the value of the 'allowMultiple' taxonomy field to true. This field was not taken into account until now.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: Removing an index(indices) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- Index 'idx_thread_posts' was detected in the database but with a different configuration. It will be recreated
+DROP INDEX [idx_thread_posts] ON [sf_forum_posts]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- Index 'idx_forum_threads' was detected in the database but with a different configuration. It will be recreated
+DROP INDEX [idx_forum_threads] ON [sf_forum_threads]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- Column was read from database as: [thread_id] uniqueidentifier null
+-- modify column for field thread
+UPDATE [sf_forum_posts]
+   SET [thread_id] = '00000000-0000-0000-0000-000000000000' -- Add your own default value here, for when [thread_id] is null.
+ WHERE [thread_id] IS NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: ALTER TABLE [sf_forum_posts] ALTER COLUMN [thread_id] uniqueidentifier NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- Column was read from database as: [forum_id] uniqueidentifier null
+-- modify column for field forum
+UPDATE [sf_forum_threads]
+   SET [forum_id] = '00000000-0000-0000-0000-000000000000' -- Add your own default value here, for when [forum_id] is null.
+ WHERE [forum_id] IS NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: ALTER TABLE [sf_forum_threads] ALTER COLUMN [forum_id] uniqueidentifier NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- add column for field includeInSitemap
+ALTER TABLE [sf_forums] ADD [include_in_sitemap] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: UPDATE [sf_forums] SET [include_in_sitemap] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: ALTER TABLE [sf_forums] ALTER COLUMN [include_in_sitemap] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- add column for field allowedAttachmentExtensions
+ALTER TABLE [sf_forums] ADD [allowed_attachment_extensions] VARCHAR(MAX) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- Index 'idx_thread_posts' was detected in the database but with a different configuration. It will be recreated
+CREATE INDEX [idx_thread_posts] ON [sf_forum_posts]([thread_id], [date_created])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:56:15 AM
+
+Message: -- Index 'idx_forum_threads' was detected in the database but with a different configuration. It will be recreated
+CREATE INDEX [idx_forum_threads] ON [sf_forum_threads]([forum_id], [last_post_date])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:57:31 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:57:31 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:57:31 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:57:31 AM
+
+Message: -- Telerik.Sitefinity.RecycleBin.Model.RecycleBinDataItem
+CREATE TABLE [sf_rbin_item] (
+    [owner] uniqueidentifier NULL,          -- owner
+    [last_modified] datetime NOT NULL,      -- lastModified
+    [id] uniqueidentifier NOT NULL,         -- id
+    [del_item_wrkfl_status] VARCHAR(255) NULL, -- deletedItemWorkflowStatus
+    [del_item_type_name] VARCHAR(255) NULL, -- deletedItemTypeName
+    [del_item_title] NVARCHAR(255) NULL,    -- deletedItemTitle
+    [del_item_site_id] uniqueidentifier NULL, -- deletedItemSiteId
+    [del_item_prvdr_name] VARCHAR(255) NULL, -- deletedItemProviderName
+    [del_item_parent_type_name] VARCHAR(255) NULL, -- deletedItemParentType
+    [del_item_titles_path] NVARCHAR(MAX) NULL, -- deletedItemParentTitlesPath
+    [del_item_lang] VARCHAR(255) NULL,      -- deletedItemLanguage
+    [del_item_id] uniqueidentifier NULL,    -- deletedItemId
+    [date_created] datetime NOT NULL,       -- dateCreated
+    [app_name] varchar(255) NULL,           -- applicationName
+    [voa_version] smallint NOT NULL,        -- <internal-version>
+    CONSTRAINT [pk_sf_rbin_item] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:57:31 AM
+
+Message: -- Index 'idx_sf_rbin_item_type_prov_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_rbin_item_type_prov_id] ON [sf_rbin_item]([del_item_type_name], [del_item_prvdr_name], [del_item_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:57:31 AM
+
+Message: -- Index 'idx_sf_rbin_date_created' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_rbin_date_created] ON [sf_rbin_item]([date_created])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:01 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:01 AM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:01 AM
+
+Message: -- Column was read from database as: [subject] nvarchar(80) null
+-- modify column for field subject
+ALTER TABLE [sf_notif_msg_template] ALTER COLUMN [subject] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:04 AM
+
+Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscriptions. Count: 2319
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:04 AM
+
+Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscription lists. Count: 154
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:11 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:11 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:11 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:12 AM
+
+Message: -- Telerik.Sitefinity.Services.Comments.Impl.Model.Comment
+CREATE TABLE [sf_cs_comments] (
+    [status] NVARCHAR(100) NULL,            -- status
+    [resolve_key] NVARCHAR(255) NOT NULL,   -- resolveKey
+    [rating] numeric(20,10) NULL,           -- rating
+    [parent_thread_id] uniqueidentifier NOT NULL, -- parentThread
+    [message] NVARCHAR(MAX) NULL,           -- message
+    [last_modified_by_name] varchar(255) NULL, -- lastModifiedByName
+    [last_modified_by_email] varchar(255) NULL, -- lastModifiedByEmail
+    [last_modified_by] uniqueidentifier NULL, -- lastModifiedBy
+    [last_modified] datetime NULL,          -- lastModified
+    [date_created] datetime NULL,           -- dateCreated
+    [custom_data] NVARCHAR(1024) NULL,      -- customData
+    [author_name] NVARCHAR(255) NULL,       -- authorName
+    [author_ip_address] NVARCHAR(255) NULL, -- authorIpAddress
+    [author_id] uniqueidentifier NULL,      -- authorId
+    [author_email] NVARCHAR(255) NULL,      -- authorEmail
+    CONSTRAINT [pk_sf_cs_comments] PRIMARY KEY ([resolve_key])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:12 AM
+
+Message: -- Telerik.Sitefinity.Services.Comments.Impl.Model.Group
+CREATE TABLE [sf_cs_groups] (
+    [title] NVARCHAR(255) NULL,             -- title
+    [resolve_key] NVARCHAR(255) NULL,       -- resolveKey
+    [last_modified] datetime NOT NULL,      -- lastModified
+    [id] uniqueidentifier NOT NULL,         -- id
+    [description] NVARCHAR(255) NULL,       -- description
+    [date_created] datetime NULL,           -- dateCreated
+    [author_name] NVARCHAR(255) NULL,       -- authorName
+    [author_id] uniqueidentifier NULL,      -- authorId
+    [author_email] NVARCHAR(255) NULL,      -- authorEmail
+    CONSTRAINT [pk_sf_cs_groups] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:12 AM
+
+Message: -- Telerik.Sitefinity.Services.Comments.Impl.Model.Thread
+CREATE TABLE [sf_cs_threads] (
+    [type] NVARCHAR(255) NULL,              -- type
+    [title] NVARCHAR(255) NULL,             -- title
+    [resolve_key] NVARCHAR(255) NULL,       -- resolveKey
+    [require_authentication] tinyint NOT NULL, -- requireAuthentication
+    [require_approval] tinyint NOT NULL,    -- requireApproval
+    [parent_group_id] uniqueidentifier NOT NULL, -- parentGroup
+    [last_modified] datetime NOT NULL,      -- lastModified
+    [language] NVARCHAR(10) NULL,           -- language
+    [is_closed] tinyint NOT NULL,           -- isClosed
+    [id] uniqueidentifier NOT NULL,         -- id
+    [date_created] datetime NULL,           -- dateCreated
+    [data_source] NVARCHAR(255) NULL,       -- dataSource
+    [comments_count] int NOT NULL,          -- commentsCount
+    [behavior] NVARCHAR(100) NULL,          -- behavior
+    [average_rating] numeric(20,10) NULL,   -- averageRating
+    [author_name] NVARCHAR(255) NULL,       -- authorName
+    [author_id] uniqueidentifier NULL,      -- authorId
+    [author_email] NVARCHAR(255) NULL,      -- authorEmail
+    CONSTRAINT [pk_sf_cs_threads] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:12 AM
+
+Message: -- Index 'idx_sf_cs_comments_thread' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_cs_comments_thread] ON [sf_cs_comments]([parent_thread_id], [date_created])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:12 AM
+
+Message: -- Index 'idx_sf_cs_groups_key' was not detected in the database. It will be created
+CREATE UNIQUE INDEX [idx_sf_cs_groups_key] ON [sf_cs_groups]([resolve_key])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:12 AM
+
+Message: -- Index 'idx_sf_cs_threads_key' was not detected in the database. It will be created
+CREATE UNIQUE INDEX [idx_sf_cs_threads_key] ON [sf_cs_threads]([resolve_key])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:12 AM
+
+Message: -- Index 'idx_sf_cs_threads_group' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_cs_threads_group] ON [sf_cs_threads]([parent_group_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 09:58:13 AM
+
+Message: PASSED : Clean approval records : Upgrade to 5100
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:03:52 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:03:52 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:03:52 AM
+
+Message: -- Telerik.Sitefinity.Frontend.FilesMonitoring.Data.FileData
+CREATE TABLE [sf_files_monitor_data] (
+    [package_name] varchar(255) NULL,       -- packageName
+    [id] uniqueidentifier NOT NULL,         -- id
+    [file_path] varchar(255) NULL,          -- filePath
+    [file_name] varchar(255) NULL,          -- fileName
+    CONSTRAINT [pk_sf_files_monitor_data] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:34 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Category
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:35
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Category - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:35 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Category.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:35 AM
+
+Message: For all types - total number of batches processed : 1.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:35 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:36
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: For all types - total number of batches processed : 2.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:36
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: For all types - total number of batches processed : 3.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Testimonial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:36
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Testimonial - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Testimonial.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: For all types - total number of batches processed : 4.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:36 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.MapCountry
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:37
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.MapCountry - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.MapCountry.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: For all types - total number of batches processed : 5.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Address
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:37
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Address - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Address.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: For all types - total number of batches processed : 6.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.PopupScreen
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.PopupScreen.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: For all types - total number of batches processed : 6.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.HpPopupBanner
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:37
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.HpPopupBanner - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.HpPopupBanner.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: For all types - total number of batches processed : 7.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:37 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:38
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: For all types - total number of batches processed : 8.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:38
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: For all types - total number of batches processed : 9.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: Start upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Partner
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/13/2016 10:05:38
+
+Message: DynamicContent items for type Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Partner - batch number 1 processed
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: End upgrading DynamicContent items permissions for type : Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Partner.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: For all types - total number of batches processed : 10.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-13 10:05:38 AM
+
+Message: PASSED : Upgrading dynamic content permissions
+
+
+----------------------------------------

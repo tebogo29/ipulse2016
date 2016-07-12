@@ -1,0 +1,138 @@
+td{
+font-size:11px !important;
+	font-family:Tahoma !important;
+	color:black !important;
+
+}
+
+.recess {
+    background-color: #ffffff ;
+}
+
+.recess td {
+    padding: 10px;
+}
+
+.partnersTable td {
+    padding: 10px;
+}
+
+.formField{
+	color:black  !important;/* changes*/
+	font-size:10px !important;
+	background-color:#ffffff !important;
+	font-family:tahoma !important;
+	border:0px solid #666 !important;
+}
+
+body{
+margin-top:0 !important;
+background-color:#fff !important;/* changes*/
+font-family:Tahoma !important;
+}
+
+
+
+.footer{
+	color:white !important;
+	font-size:9px !important;
+	font-family:Tahoma !important;
+}
+
+.copyOrange {
+	color: #f8931d !important;
+	text-decoration: none !important;
+}
+
+.headingOrange {
+	color: #f8931d !important;
+	text-decoration: none !important;
+	font-weight: bold !important;
+    padding: 0px;
+    margin: 0px;
+}
+.Tableheader
+{
+	background-color: #f8931d !important;
+	font-weight: bold !important;
+	color: black !important;
+}
+
+a.a1{color: white!important;
+	text-decoration: none !important;}
+
+a.a1:hover {
+	color: #f79332!important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: white!important;
+	text-decoration: none !important;
+}
+a {
+	font-family: Tahoma !important;
+}
+
+.Button{
+	background-color:#f8931d !important;
+	color:#000000 !important;
+	font-family:Tahoma !important;
+	border:0px !important;
+}
+.Month,.Year, .Day
+	{
+		color:black !important;
+		font-size:15px !important;
+		/*font-weight:bold !important;	*/
+	}
+
+a img {border: none !important;
+    position: relative;
+    left: -6px;
+    }
+	
+.SearchBox
+{
+    background-color:black;
+    width:716px;
+    height:25px;
+    display:block;
+    border-radius:0px 0px 0px 0px;
+    right:0;
+    position:absolute;
+    bottom:0;
+}
+
+.sfnewsletterFieldsList, .sfnewsletterSubmitBtnWrp{
+    float:left; display:block;
+}
+.sfSubscribe .sfMessage
+{
+    position:absolute;
+    top:10px;
+}
+.sfSubscribe .sfTxtLbl
+{
+    display:none;
+}
+.sfnewsletterSubmitBtnWrp input, .sfsearchSubmit{
+
+    width: 21px;
+    height: 17px;
+    border: none;
+    padding: 9px !important;
+    margin: 72px 2px 0px 2px !important;
+}
+.sfSubscribe .sfErrorWrp, .sfSubscribe .sfMsgPositive
+{
+    position: absolute;
+    top: -20px;
+    height: 14px !important;
+    padding: 0px;
+    line-height: 1.5 !important;
+    margin: 0px;
+    left: 0px;
+    background:none !important;
+    color:red !important;
+}

@@ -1,0 +1,137 @@
+----------------------------------------
+Timestamp: 6/6/2016 3:12:52 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/6/2016 3:12:52 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/6/2016 3:12:52 PM
+
+Message: -- add column for field Product.Type
+ALTER TABLE [firewatermodules_product] ADD [Type] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Products.Product
+CREATE TABLE [products_product] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Type] NVARCHAR(255) NULL,              -- Product.Type
+    [Title] NVARCHAR(255) NULL,             -- Product.Title
+    [Summary] NVARCHAR(MAX) NULL,           -- Product.Summary
+    [Active] BIT NULL,                      -- Product.Active
+    CONSTRAINT [pk_products_product] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: -- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.Products.Product.Category
+CREATE TABLE [products_product_category] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_products_product_category] PRIMARY KEY ([base_id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: ALTER TABLE [products_product] ADD CONSTRAINT [ref_prdcts_prdct_sf_d_2AFF67F5] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: ALTER TABLE [products_product_category] ADD CONSTRAINT [ref_prdcts_prdct_ctgr_B4BDEAAF] FOREIGN KEY ([base_id]) REFERENCES [products_product]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 2:52:21 PM
+
+Message: -- Index 'idx_prdcts_prduct_category_val' was not detected in the database. It will be created
+CREATE INDEX [idx_prdcts_prduct_category_val] ON [products_product_category]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 3:02:28 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 3:02:28 PM
+
+Message: Removing a foreign key constraint(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 3:02:28 PM
+
+Message: ALTER TABLE [products_product_category] DROP CONSTRAINT [ref_prdcts_prdct_ctgr_B4BDEAAF]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 3:02:28 PM
+
+Message: -- dropping table [products_product]
+DROP TABLE [products_product]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/7/2016 3:02:28 PM
+
+Message: -- dropping table [products_product_category]
+DROP TABLE [products_product_category]
+
+
+----------------------------------------

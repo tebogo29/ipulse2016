@@ -1,0 +1,1888 @@
+----------------------------------------
+Timestamp: 6/17/2016 9:00:17 AM
+
+Message: HandlingInstanceID: 78de433f-9829-47a2-b2a5-cfe25c031608
+An exception of type 'Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------
+06/17/2016 11:00:17
+Type : Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException, Telerik.Sitefinity.Model, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : The specified URL already exists in page: Training
+Source : Telerik.Sitefinity
+Help link : 
+Page : Telerik.Sitefinity.Pages.Model.PageNode
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Fluent.AnyContent.Implementation.Helpers.AllFacadesHelper.SaveChanges(AppSettings settings, IManager manager)
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveChanges()
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveAndContinue()
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.DuplicatePage(WcfPageContext pageContext)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.SavePageInternal(WcfPageContext pageContext, Boolean duplicate)
+   at SyncInvokeSavePage(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 9:00:17 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106210828630176
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&duplicate=true&workflowOperation=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106210828630176
+
+ProcessId: 4948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12200
+
+Extended Properties: Url - Training
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 9:01:14 AM
+
+Message: HandlingInstanceID: 786ba4b8-850b-4f50-a18b-8bb1f13b2ef3
+An exception of type 'Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------
+06/17/2016 11:01:14
+Type : Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException, Telerik.Sitefinity.Model, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : The specified URL already exists in page: Training
+Source : Telerik.Sitefinity
+Help link : 
+Page : Telerik.Sitefinity.Pages.Model.PageNode
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Fluent.AnyContent.Implementation.Helpers.AllFacadesHelper.SaveChanges(AppSettings settings, IManager manager)
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveChanges()
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveAndContinue()
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.DuplicatePage(WcfPageContext pageContext)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.SavePageInternal(WcfPageContext pageContext, Boolean duplicate)
+   at SyncInvokeSavePage(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 9:01:14 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106210828630176
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&duplicate=true&workflowOperation=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106210828630176
+
+ProcessId: 4948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12388
+
+Extended Properties: Url - Training
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 9:01:41 AM
+
+Message: HandlingInstanceID: 5a7e5f8c-a703-4fec-89f3-0df15866c80d
+An exception of type 'Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------
+06/17/2016 11:01:41
+Type : Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException, Telerik.Sitefinity.Model, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : The specified URL already exists in page: Training2
+Source : Telerik.Sitefinity
+Help link : 
+Page : Telerik.Sitefinity.Pages.Model.PageNode
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Fluent.AnyContent.Implementation.Helpers.AllFacadesHelper.SaveChanges(AppSettings settings, IManager manager)
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveChanges()
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveAndContinue()
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.DuplicatePage(WcfPageContext pageContext)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.SavePageInternal(WcfPageContext pageContext, Boolean duplicate)
+   at SyncInvokeSavePage(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 9:01:41 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106210828630176
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&duplicate=true&workflowOperation=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106210828630176
+
+ProcessId: 4948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2516
+
+Extended Properties: Url - Training2
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:23:32 PM
+
+Message: HandlingInstanceID: b63c9c63-cffc-43cc-9233-bce4db29707e
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+06/17/2016 14:23:32
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption' to type 'Telerik.Sitefinity.Model.Lstring'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 73
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:23:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:23:58 PM
+
+Message: HandlingInstanceID: 1922208c-a228-4b1b-9807-53725294000b
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+06/17/2016 14:23:58
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption' to type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 73
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:23:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:24:17 PM
+
+Message: HandlingInstanceID: 394bd0ff-b1bf-4fc0-a4ae-b585c2c4bd88
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/17/2016 14:24:17
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : App_Web_lci30bi1
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2147467261
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 73
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:24:17 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:26:35 PM
+
+Message: HandlingInstanceID: d9f9db45-5aed-450a-8fe4-78e4684f3eb9
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/17/2016 14:26:35
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : App_Web_ghk52od1
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2147467261
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 77
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:26:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12292
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:27:16 PM
+
+Message: HandlingInstanceID: 5ebd38c7-4b0b-443f-a965-0ad047c396b3
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/17/2016 14:27:16
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : iBP7 Biometric Reader
+Source : App_Web_bk4azug3
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2146233088
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 95
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:27:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7276
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:27:56 PM
+
+Message: HandlingInstanceID: 43faeb1b-d94c-469a-a84a-527528039b93
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/17/2016 14:27:56
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : IQSuite 
+Source : App_Web_bk4azug3
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2146233088
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 95
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:27:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12292
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:28:27 PM
+
+Message: HandlingInstanceID: 5c4a7943-b4b5-4416-a7c6-8667545a50b7
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/17/2016 14:28:27
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : AccessIQ
+Source : App_Web_bk4azug3
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2146233088
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 95
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:28:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11224
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:28:37 PM
+
+Message: HandlingInstanceID: 98994a96-5e93-4609-ad5e-6ee3e11e3ab9
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/17/2016 14:28:37
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : eSkan 250
+Source : App_Web_bk4azug3
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2146233088
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 95
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:28:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11176
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:28:57 PM
+
+Message: HandlingInstanceID: 84f9ba1d-4cea-4c53-a08e-e723b62d3fa1
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/17/2016 14:28:57
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : eSkan 250
+Source : App_Web_bk4azug3
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2146233088
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 95
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:28:57 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10484
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:37:29 PM
+
+Message: HandlingInstanceID: d09fc9dd-fe87-49ba-9032-b9e1e96aa360
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+06/17/2016 14:37:29
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Type").PersistedValue == value(ASP.fwi_modules_user_productlist_ascx).getProductTypeShortCode(value(ipulse_2016_FWI_Modules_user_ProductList+<>c__DisplayClass0).typeOfProduct))) AndAlso (re-i.Visible == True)))'. Failure: Database mapped field uses different type 'System.String'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Type").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && (.Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Type")).PersistedValue == .Call .Constant<ipulse_2016_FWI_Modules_user_ProductList>(ASP.fwi_modules_user_productlist_ascx).getProductTypeShortCode(.Constant<ipulse_2016_FWI_Modules_user_ProductList+<>c__DisplayClass0>(ipulse_2016_FWI_Modules_user_ProductList+<>c__DisplayClass0).typeOfProduct)
+    && $re-i.Visible == True
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 38
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:37:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.String'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Type").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("Type")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10484
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:39:03 PM
+
+Message: HandlingInstanceID: 07e894b9-935a-41d6-8e0d-eecc2d6a3ec5
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+06/17/2016 14:39:03
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The binary operator Equal is not defined for the types 'System.String' and 'Telerik.Sitefinity.Model.Lstring'.
+Source : System.Core
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Linq.Expressions.BinaryExpression GetEqualityComparisonOperator(System.Linq.Expressions.ExpressionType, System.String, System.Linq.Expressions.Expression, System.Linq.Expressions.Expression, Boolean)
+HResult : -2146233079
+Stack Trace :    at System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   at System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   at System.Linq.Expressions.Expression.MakeBinary(ExpressionType binaryType, Expression left, Expression right, Boolean liftToNull, MethodInfo method, LambdaExpression conversion)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessExpressionVisitor`2.VisitBinary(BinaryExpression b)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.Visit(Expression exp)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.VisitBinary(BinaryExpression b)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.Visit(Expression exp)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.VisitBinary(BinaryExpression b)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.Visit(Expression exp)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessExpressionVisitor`2.VisitLambda(LambdaExpression lambda)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.Visit(Expression exp)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.VisitUnary(UnaryExpression u)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.Visit(Expression exp)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.VisitExpressionList(ReadOnlyCollection`1 original)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessExpressionVisitor`2.VisitMethodCall(MethodCallExpression m)
+   at Telerik.Sitefinity.Data.Linq.ExpressionVisitor.Visit(Expression exp)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.EnhanceExpression(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.CreateQuery[TElement](Expression expression)
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 38
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:39:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7276
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:39:27 PM
+
+Message: HandlingInstanceID: d7619531-c541-4a52-9868-9476ad25c90c
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+06/17/2016 14:39:27
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Type") == value(ASP.fwi_modules_user_productlist_ascx).getProductTypeShortCode(value(ipulse_2016_FWI_Modules_user_ProductList+<>c__DisplayClass0).typeOfProduct))) AndAlso (re-i.Visible == True)))'. Failure: Database mapped field uses different type 'System.String'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Type").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Type") == .Call .Constant<ipulse_2016_FWI_Modules_user_ProductList>(ASP.fwi_modules_user_productlist_ascx).getProductTypeShortCode(.Constant<ipulse_2016_FWI_Modules_user_ProductList+<>c__DisplayClass0>(ipulse_2016_FWI_Modules_user_ProductList+<>c__DisplayClass0).typeOfProduct)
+    && $re-i.Visible == True
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 38
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:39:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.String'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Type").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("Type")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10484
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:40:26 PM
+
+Message: HandlingInstanceID: 59bd9cd7-8b33-45fa-8b03-4d56055cfe17
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/17/2016 14:40:26
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : App_Web_cqxamqlr
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2147467261
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 63
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:40:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12292
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 12:44:50 PM
+
+Message: HandlingInstanceID: 6f15b512-77e8-414e-a4e8-5dda689cb438
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 14:44:50
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 111
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 63
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 12:44:50 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : Anton
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11220
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:23:02 PM
+
+Message: HandlingInstanceID: a3dadd4c-4a41-4a95-ab0d-f5d57081e41b
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:23:02
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:23:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10272
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:23:27 PM
+
+Message: HandlingInstanceID: 85290bdb-14bc-461c-888c-11733f9d9871
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:23:27
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:23:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11104
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:23:50 PM
+
+Message: HandlingInstanceID: 2afe951d-37d7-4bdc-84de-3db00453ac4f
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:23:50
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:23:50 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10272
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:24:51 PM
+
+Message: HandlingInstanceID: a851a82e-fae1-47d8-bf07-f96dc065696b
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:24:51
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:24:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:25:01 PM
+
+Message: HandlingInstanceID: 198e49dc-4795-4c78-8e40-1ccf8adc4da3
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:25:01
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:25:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/biometric-and-card-reader/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10272
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:25:27 PM
+
+Message: HandlingInstanceID: 497c451f-d848-41b7-9fc9-246ff27754f3
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:25:27
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:25:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6512
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:25:34 PM
+
+Message: HandlingInstanceID: a1cb4f9c-1291-4ea6-92c7-89d4df04ec82
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:25:34
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:25:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/indoor-biometric-readers/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:33:59 PM
+
+Message: HandlingInstanceID: 193af2bc-a5ce-4cda-9e1d-6045ab35129a
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:33:59
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:33:59 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:36:00 PM
+
+Message: HandlingInstanceID: 7a520757-c8ae-4290-ad9b-042b06198fe7
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:36:00
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:36:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/biometric-and-card-reader/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:36:03 PM
+
+Message: HandlingInstanceID: f4d7bc70-f4d9-4fd8-a0e7-f8b808a3bf2d
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:36:03
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:36:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/biometric-and-card-reader/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10484
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 1:36:34 PM
+
+Message: HandlingInstanceID: fec2d5e1-c514-4fcd-b7ba-eb318876d726
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 15:36:34
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 1:36:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/biometric-and-card-reader/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2016 2:23:11 PM
+
+Message: HandlingInstanceID: 75753fd7-ee03-483a-8c51-175b35019c93
+An exception of type 'System.Collections.Generic.KeyNotFoundException' occurred and was caught.
+-----------------------------------------------------------------------------------------------
+06/17/2016 16:23:11
+Type : System.Collections.Generic.KeyNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The given key was not present in the dictionary.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue get_Item(TKey)
+HResult : -2146232969
+Stack Trace :    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ipulse_2016_FWI_Modules_user_ProductList.getProductTypeShortCode(String type) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 113
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 64
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/17/2016 2:23:11 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131106381568223317
+ThreadIdentity : kyle
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/pro/hardware/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131106381568223317
+
+ProcessId: 10108
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4068
+
+Extended Properties: 
+----------------------------------------
