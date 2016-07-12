@@ -1,0 +1,177 @@
+/* normal page styling*/
+
+body {
+	margin-top:0;
+	background-color:;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+p{ font-size: 11px;
+font-family: Tahoma;}
+
+html{
+height:100.250% !important;
+margin-bottom:1px !important;
+font-family:Tahoma !important;
+font-size:11px !important;
+}
+
+h1 { color:blue !important; background-color:#fffff !important;
+ font-weight:100 !important; margin:-10px !important; margin-bottom:10px !important; 
+ padding-top:15px !important; padding-left:36px !important; padding-bottom:8px !important; font-family:Arial, Helvetica, sans-serif !important; 
+ text-transform:lowercase !important; background-image:url() !important; background-repeat:no-repeat !important; 
+background-position: left !important; vertical-align:middle !important}
+ 
+ h2 { font-size:14px !important; 
+ font-weight:bold !important; 
+ font-family: Tahoma;
+ color: #f8931d!important;
+ padding-top: 0px !important; 
+ padding-bottom: 0px !important;}
+ 
+ a:link {
+	color: #f8931d !important;
+	text-decoration: none !important;
+}
+a:visited {
+	color: #f8931d !important;
+	text-decoration: none !important;
+}
+a:hover {
+	color: #ededed !important;
+	text-decoration: none !important;
+}
+a {
+	font-family: Tahoma !important;
+}
+
+.sfnewsSummary 
+{
+	font-size: 11px !important;
+}
+
+.sfContentBlock ul 
+{
+	padding-left: 40px !important;
+}
+
+
+
+
+ .ProductListing
+    {
+       padding-top:40px;
+    }
+    
+    .ProductListing .ListingCell
+    {
+        display:none;
+       float:left;
+       margin: 10px;
+       width:198px;
+    }
+    .ListingTitle {
+        margin: 0 auto;
+        width: inherit;
+        display: table-cell;
+        text-align: center;
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+    .ListingCell img {
+        padding: 4px;
+    }
+    ul.RoundAbout
+    {
+                display:none;
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 350px;
+        height: 232px;
+    }
+
+        ul.RoundAbout li
+        {
+            height: 232px;
+            width: 362px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+            ul.RoundAbout li img
+            {
+                width: 100%;
+            }
+
+            ul.RoundAbout li.roundabout-in-focus
+            {
+                cursor: default;
+            }
+            
+            ul.RoundAbout li span
+            {
+                display: block;
+                /*padding-top: 6em;*/
+            }
+            ul.RoundAbout li div
+            {
+                font-size:14px;
+                padding-top:10px;
+                display:none;
+            }
+            ul.RoundAbout li.roundabout-in-focus div
+            {
+                display: block;
+                font-size:14px;
+                padding-top:10px;
+            }
+            
+    #carbonads-container .carbonad
+    {
+        margin: 0 auto;
+    }
+   
+    .contentPlaceholder h2
+    {
+        font-size: 30px !important;
+        font-weight: normal !important;
+		color: #ffffff !important;
+
+      
+    }
+    .contentPlaceholder h3
+    {
+        font-size: 13px !important;
+        font-weight: normal !important;
+        padding: 15px 3px 3px 3px !important;
+    }
+    .imageContainer
+    {
+        float:left;
+        width:220px;
+    }
+    .contentPlaceholder
+    {
+        float:left;
+        width:670px;
+        line-height: 1.4;
+    }
+    .contentPlaceholder p
+    {
+        padding: 3px 3px 3px 3px;
+    }
+    .contentPlaceholder ul
+    {
+        padding: 3px 3px 3px 40px;
+    }
+    .contentPlaceholder ul li
+    {
+        padding-left:10px;
+        list-style:circle;
+    }
+    .sfContentBlock h2 
+    {
+        margin: 0px !important;
+    }

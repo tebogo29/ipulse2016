@@ -1,0 +1,37 @@
+----------------------------------------
+Timestamp: 5/26/2016 2:25:03 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'tebogo'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Publishing.Web.Services.PublishingAdminService: Telerik.Sitefinity.Publishing.Web.Services.Data.DataItemContext`1[Telerik.Sitefinity.Publishing.Web.Services.Data.PublishingPointDetailViewModel] SavePublishingPoint(Telerik.Sitefinity.Publishing.Web.Services.Data.DataItemContext`1[Telerik.Sitefinity.Publishing.Web.Services.Data.PublishingPointDetailViewModel], System.String, System.String, Boolean, System.String)
+unknown: System.Object SyncInvokeSavePublishingPoint(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage31(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Void AsyncCompletionWrapperCallback(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.ServiceModel.Channels.HttpInput+ParseMessageAsyncResult: Void OnRead(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+System.Web.Hosting.ReadAsyncResult: Void Complete(Int32, Int32, IntPtr, Boolean)
+System.Web.Hosting.IIS7WorkerRequest: Void OnAsyncCompletion(Int32, Int32, IntPtr)
+System.Web.Hosting.PipelineRuntime: Void AsyncCompletionHandler(IntPtr, Int32, Int32, IntPtr)'.
+
+
+----------------------------------------

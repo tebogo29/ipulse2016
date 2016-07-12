@@ -1,0 +1,1516 @@
+----------------------------------------
+Timestamp: 7/7/2016 3:11:03 PM
+
+Message: HandlingInstanceID: 4e3daa12-526b-4006-a909-c92ccfe80b30
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:11:03
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'System.Web.UI.WebControls.CheckBoxList[]'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:11:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:11:33 PM
+
+Message: HandlingInstanceID: 7ba2ecd8-411f-47b4-b78d-aac60a1df88c
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:11:33
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'System.Web.UI.WebControls.CheckBoxList'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:11:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:12:01 PM
+
+Message: HandlingInstanceID: f7aa4895-6649-4901-b4b6-a38a1e533618
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:12:01
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'System.Web.UI.WebControls.CheckBox'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:12:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:12:07 PM
+
+Message: HandlingInstanceID: 034ef144-c023-4925-ac1e-2bd65b30ee48
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:12:07
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'System.Web.UI.WebControls.CheckBox'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:12:07 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:12:08 PM
+
+Message: HandlingInstanceID: ee90b4c4-12b7-40ba-9486-828d71a3637e
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:12:08
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'System.Web.UI.WebControls.CheckBox'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:12:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7624
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:19:33 PM
+
+Message: HandlingInstanceID: 814a1b19-9052-4034-a3cd-0c9ef7026ccd
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:19:33
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:19:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/biometric-consoles
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16632
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:41:36 PM
+
+Message: HandlingInstanceID: 3c247b95-32a6-4d48-8fc9-0fc52116de85
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:41:36
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption'.
+Source : App_Web_xne3dvxy
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2147467262
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:41:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10384
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:42:28 PM
+
+Message: HandlingInstanceID: 8caef87f-a971-4e17-b777-36e9c940eba2
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:42:28
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption'.
+Source : App_Web_4jd2g4uf
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2147467262
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:42:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10384
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:42:50 PM
+
+Message: HandlingInstanceID: bafdb0cf-ac94-42a7-a746-2e6b66d20975
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:42:50
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption'.
+Source : App_Web_ll5y2ztp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2147467262
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:42:50 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7624
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/7/2016 3:43:07 PM
+
+Message: HandlingInstanceID: 83f030df-7c7e-4ed8-b485-9804edac4ad4
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/07/2016 17:43:07
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption'.
+Source : App_Web_cnaawp2u
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void GetProductList(System.String)
+HResult : -2147467262
+Stack Trace :    at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 65
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/7/2016 3:43:07 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131123778161653441
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131123778161653441
+
+ProcessId: 13948
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10384
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/8/2016 9:52:45 AM
+
+Message: HandlingInstanceID: 2771d232-92a8-4f29-a0c0-f5217ec483a6
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+07/08/2016 11:52:45
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/8/2016 9:52:45 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131124431571985105
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/858c54a4-75a4-62bd-81a2-ff00002f4c9e/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131124431571985105
+
+ProcessId: 14052
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:15140
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/8/2016 1:17:17 PM
+
+Message: HandlingInstanceID: 76a48f17-f6ce-4cb4-9a26-f2322daf418d
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/08/2016 15:17:16
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'System.String[]'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 78
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/8/2016 1:17:17 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131124564889286172
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131124564889286172
+
+ProcessId: 5732
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/8/2016 1:19:27 PM
+
+Message: HandlingInstanceID: d5b6e6e0-5196-41a3-a166-2d102dc2d4c0
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/08/2016 15:19:27
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 78
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/8/2016 1:19:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131124564889286172
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131124564889286172
+
+ProcessId: 5732
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/8/2016 1:21:19 PM
+
+Message: HandlingInstanceID: a2b4304f-6fae-4ea2-8960-70011a1886bb
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+07/08/2016 15:21:19
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.DynamicModules.Model.ChoiceOption[]' to type 'System.String[]'.
+Source : Telerik.Sitefinity.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TValue GetValue[TValue](Telerik.Sitefinity.Model.IDynamicFieldsContainer, System.String)
+HResult : -2147467262
+Stack Trace :    at Telerik.Sitefinity.Model.DataExtensions.GetValue[TValue](IDynamicFieldsContainer dataItem, String fieldName)
+   at ipulse_2016_FWI_Modules_user_ProductList.GetProductList(String strTitle) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 78
+   at ipulse_2016_FWI_Modules_user_ProductList.Page_Load(Object sender, EventArgs e) in d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs:line 26
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/8/2016 1:21:19 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131124564889286172
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131124564889286172
+
+ProcessId: 5732
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/8/2016 1:41:26 PM
+
+Message: HandlingInstanceID: e13ad581-00f6-4f78-92d2-b7b70926d6fd
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+07/08/2016 15:41:26
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs(98): error CS1061: 'System.Web.UI.Control' does not contain a definition for 'SystemChildItems' and no extension method 'SystemChildItems' accepting a first argument of type 'System.Web.UI.Control' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : #pragma checksum "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "553249906203539562F464858E617D1F7836D5B9"
+//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//     Runtime Version:4.0.30319.18449
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+
+
+public partial class ipulse_2016_FWI_Modules_user_ProductList {
+    
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    protected global::System.Web.UI.WebControls.Literal productsHtml;
+    
+    #line default
+    #line hidden
+    
+    protected System.Web.Profile.DefaultProfile Profile {
+        get {
+            return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+        }
+    }
+    
+    protected ASP.global_asax ApplicationInstance {
+        get {
+            return ((ASP.global_asax)(this.Context.ApplicationInstance));
+        }
+    }
+}
+namespace ASP {
+    
+    #line 312 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 319 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 310 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.ComponentModel.DataAnnotations;
+    
+    #line default
+    #line hidden
+    
+    #line 308 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Collections.Generic;
+    
+    #line default
+    #line hidden
+    
+    #line 314 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 325 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Xml.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 324 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    #line 315 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 311 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 306 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 313 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 320 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 316 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 307 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI.WebControls.Expressions;
+    
+    #line default
+    #line hidden
+    
+    #line 309 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 318 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.DynamicData;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class fwi_modules_user_productlist_ascx : global::ipulse_2016_FWI_Modules_user_ProductList {
+        
+        private static bool @__initialized;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public fwi_modules_user_productlist_ascx() {
+            
+            #line 912304 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs"
+            ((global::System.Web.UI.UserControl)(this)).AppRelativeVirtualPath = "~/FWI_Modules/user/ProductList.ascx";
+            
+            #line default
+            #line hidden
+            if ((global::ASP.fwi_modules_user_productlist_ascx.@__initialized == false)) {
+                global::ASP.fwi_modules_user_productlist_ascx.@__initialized = true;
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Literal @__BuildControlproductsHtml() {
+            global::System.Web.UI.WebControls.Literal @__ctrl;
+            
+            #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__ctrl = new global::System.Web.UI.WebControls.Literal();
+            
+            #line default
+            #line hidden
+            this.productsHtml = @__ctrl;
+            
+            #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__ctrl.ID = "productsHtml";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(fwi_modules_user_productlist_ascx @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n<div class=\'products-container container\' style=\"margin-bottom: 22px;margin-t" +
+                        "op: 55px;\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n     " +
+                        "       "));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Literal @__ctrl1;
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__ctrl1 = this.@__BuildControlproductsHtml();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        
+        #line 912304 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs"
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.@__BuildControlTree(this);
+        }
+        
+        #line default
+        #line hidden
+    }
+}
+
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Telerik.Sitefinity.Web.UI.UserControlWrapper.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.sfpageservice_174354a4_75a4_62bd_81a2_ff00002f4c9e_basic_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_174354a4-75a4-62bd-81a2-ff00002f4c9e_basic.aspx.d63928b6.zd8rnycu.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/8/2016 1:41:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131124564889286172
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131124564889286172
+
+ProcessId: 5732
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11636
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/8/2016 1:41:27 PM
+
+Message: HandlingInstanceID: 90b87710-6216-4501-b2f2-3260894c6320
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+07/08/2016 15:41:27
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : d:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs(98): error CS1061: 'System.Web.UI.Control' does not contain a definition for 'SystemChildItems' and no extension method 'SystemChildItems' accepting a first argument of type 'System.Web.UI.Control' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : #pragma checksum "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "553249906203539562F464858E617D1F7836D5B9"
+//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//     Runtime Version:4.0.30319.18449
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+
+
+public partial class ipulse_2016_FWI_Modules_user_ProductList {
+    
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    protected global::System.Web.UI.WebControls.Literal productsHtml;
+    
+    #line default
+    #line hidden
+    
+    protected System.Web.Profile.DefaultProfile Profile {
+        get {
+            return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+        }
+    }
+    
+    protected ASP.global_asax ApplicationInstance {
+        get {
+            return ((ASP.global_asax)(this.Context.ApplicationInstance));
+        }
+    }
+}
+namespace ASP {
+    
+    #line 312 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 319 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 310 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.ComponentModel.DataAnnotations;
+    
+    #line default
+    #line hidden
+    
+    #line 308 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Collections.Generic;
+    
+    #line default
+    #line hidden
+    
+    #line 314 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 325 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Xml.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 324 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    #line 315 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 311 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 306 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 313 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 320 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 316 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 307 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.UI.WebControls.Expressions;
+    
+    #line default
+    #line hidden
+    
+    #line 309 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 318 "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+    using System.Web.DynamicData;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class fwi_modules_user_productlist_ascx : global::ipulse_2016_FWI_Modules_user_ProductList {
+        
+        private static bool @__initialized;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public fwi_modules_user_productlist_ascx() {
+            
+            #line 912304 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs"
+            ((global::System.Web.UI.UserControl)(this)).AppRelativeVirtualPath = "~/FWI_Modules/user/ProductList.ascx";
+            
+            #line default
+            #line hidden
+            if ((global::ASP.fwi_modules_user_productlist_ascx.@__initialized == false)) {
+                global::ASP.fwi_modules_user_productlist_ascx.@__initialized = true;
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Literal @__BuildControlproductsHtml() {
+            global::System.Web.UI.WebControls.Literal @__ctrl;
+            
+            #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__ctrl = new global::System.Web.UI.WebControls.Literal();
+            
+            #line default
+            #line hidden
+            this.productsHtml = @__ctrl;
+            
+            #line 6 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__ctrl.ID = "productsHtml";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(fwi_modules_user_productlist_ascx @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n<div class=\'products-container container\' style=\"margin-bottom: 22px;margin-t" +
+                        "op: 55px;\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n     " +
+                        "       "));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Literal @__ctrl1;
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__ctrl1 = this.@__BuildControlproductsHtml();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 1 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        
+        #line 912304 "D:\Sites\clients\ipulse\websites\ipulse_2016\FWI_Modules\user\ProductList.ascx.cs"
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.@__BuildControlTree(this);
+        }
+        
+        #line default
+        #line hidden
+    }
+}
+
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Telerik.Sitefinity.Web.UI.UserControlWrapper.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.sfpageservice_974354a4_75a4_62bd_81a2_ff00002f4c9e_basic_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_974354a4-75a4-62bd-81a2-ff00002f4c9e_basic.aspx.d63928b6.l8ygzpgj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 7/8/2016 1:41:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131124564889286172
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/outdoor-biometric-readers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131124564889286172
+
+ProcessId: 5732
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16972
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,117 @@
+----------------------------------------
+Timestamp: 6/24/2016 10:29:57 AM
+
+Message: HandlingInstanceID: 908ce9ad-8c3f-41d9-a1b9-153ae5d74f22
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+06/24/2016 12:29:57
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Cannot find ContentPlaceHolder 'cpMenu' in the master page '/App_Master/MasterPage.master', verify content control's ContentPlaceHolderID attribute in the content page.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.MasterPage CreateMaster(System.Web.UI.TemplateControl, System.Web.HttpContext, System.Web.VirtualPath, System.Collections.IDictionary)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/24/2016 10:29:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131112370666960668
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/home
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131112370666960668
+
+ProcessId: 14272
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13216
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/24/2016 10:32:21 AM
+
+Message: HandlingInstanceID: 0dacef42-0dcc-40c6-90cc-15bddea69a88
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+06/24/2016 12:32:21
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/24/2016 10:32:21 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131112370666960668
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/3d6654a4-75a4-62bd-81a2-ff00002f4c9e/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131112370666960668
+
+ProcessId: 14272
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12528
+
+Extended Properties: 
+----------------------------------------

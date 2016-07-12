@@ -1,0 +1,366 @@
+----------------------------------------
+Timestamp: 6/1/2016 6:48:02 AM
+
+Message: HandlingInstanceID: a6534c1d-a3bd-4483-a319-268ac0d8488a
+An exception of type 'System.NotSupportedException' occurred and was caught.
+----------------------------------------------------------------------------
+06/01/2016 08:48:02
+Type : System.NotSupportedException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The item was unlocked by another user while you were editing and you cannot save/publish it.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowContentException(System.Type, Telerik.Sitefinity.Data.IManager, System.Guid)
+HResult : -2146233067
+Stack Trace :    at Telerik.Sitefinity.Data.WcfHelpers.TypeSurrogateFactory.ThrowContentException(Type type, IManager manager, Guid originalContentId)
+   at Telerik.Sitefinity.Data.WcfHelpers.TypeSurrogateFactory.CreateInstance(Type type, Object surrogate, String propertyPath)
+   at Telerik.Sitefinity.Data.WcfHelpers.ReflectionHelper.DeepCopy(Object source, Type type, CreateInstanceDelegate createDelegate, CanCopyPropertyDelegate canCopyPropertyDelegate, String propertyPath)
+   at Telerik.Sitefinity.Data.WcfHelpers.DynamicFieldsDataContractSurrogate.GetDeserializedObject(Object obj, Type targetType)
+   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserializeWithSurrogate(XmlReaderDelegator xmlReader, Type declaredType, DataContract surrogateDataContract, String name, String ns)
+   at ReadContentItemContextOfNewsItem3jj3B8v1FromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   at System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   at System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserializeWithSurrogate(XmlReaderDelegator xmlReader, Type declaredType, DataContract surrogateDataContract, String name, String ns)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader, Boolean verifyObjectName)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterDataContractMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DemultiplexingDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.UriTemplateDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/1/2016 6:48:02 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131092369795171579
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Content/NewsItemService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.News.Model.NewsItem&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=Publish
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131092369795171579
+
+ProcessId: 1268
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10320
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/1/2016 8:03:57 AM
+
+Message: HandlingInstanceID: 81bb5f7a-c176-48b7-b03e-f7634900954d
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+06/01/2016 10:03:57
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access item that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_012128f31cda4c43bda14135246df22c.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateLayoutControlStyles(ZoneEditorWebServiceArgs args, String layoutControlId, String pageId, String isTemplate)
+   at SyncInvokeUpdateLayoutControlStyles(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/1/2016 8:03:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131092369795171579
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Layout/Style/f12a54a4-75a4-62bd-81a2-ff00002f4c9e/6abd53a4-75a4-62bd-81a2-ff00002f4c9e/false/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131092369795171579
+
+ProcessId: 1268
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9360
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/1/2016 8:41:44 AM
+
+Message: HandlingInstanceID: eeb6796b-c938-462f-9bcd-97b0512f49ab
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/01/2016 10:41:44
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Content iPulse Systems iPB1 Reader: The item is in an invalid state. It should be master (draft).
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForContent(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CallWorkflowBatch(String providerName, String itemType, String[] Ids, String workflowOperation, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteItems(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/1/2016 8:41:44 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131092369795171579
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/batch/?managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&providerName=OpenAccessProvider&itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner&provider=OpenAccessProvider&sortExpression=LastModified DESC&skip=0&take=50
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131092369795171579
+
+ProcessId: 1268
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3776
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/1/2016 8:41:45 AM
+
+Message: HandlingInstanceID: 1d4e81a3-067e-4eb5-87e8-db70b1fd7f37
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+06/01/2016 10:41:45
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access item that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.DynamicModules.Model.DynamicContent GetDataItem(System.Type, System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessDynamicModuleProvider_30b9426238f846d0b6659fd1d94ef4a7.GetDataItem(Type itemType, Guid id)
+   at Telerik.Sitefinity.DynamicModules.DynamicModuleManager.Provider_Executed(Object sender, ExecutedEventArgs args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/1/2016 8:41:45 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131092369795171579
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/batch/?managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&providerName=OpenAccessProvider&itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner&provider=OpenAccessProvider&sortExpression=LastModified DESC&skip=0&take=50
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90060
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131092369795171579
+
+ProcessId: 1268
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2732
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/1/2016 8:49:38 AM
+
+Message: HandlingInstanceID: 393a592f-77f4-4ae3-87ce-04b6131cf4ec
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/01/2016 10:49:38
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Content iPulse Systems iPB1 Reader: The item is in an invalid state. It should be master (draft).
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForContent(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CallWorkflowBatch(String providerName, String itemType, String[] Ids, String workflowOperation, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteItems(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/1/2016 8:49:38 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131092369795171579
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/batch/?managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&providerName=OpenAccessProvider&itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner&provider=OpenAccessProvider&sortExpression=LastModified DESC&skip=0&take=50
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131092369795171579
+
+ProcessId: 1268
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11348
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/1/2016 8:49:51 AM
+
+Message: HandlingInstanceID: f8211da8-63f9-4eb1-8b80-19c86004fdba
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/01/2016 10:49:51
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Content iPulse Systems iPB1 Reader: The item is in an invalid state. It should be master (draft).
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForContent(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CallWorkflowBatch(String providerName, String itemType, String[] Ids, String workflowOperation, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteItems(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/1/2016 8:49:51 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131092369795171579
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/batch/?managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&providerName=OpenAccessProvider&itemType=Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Banner&provider=OpenAccessProvider&sortExpression=LastModified DESC&skip=0&take=50
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131092369795171579
+
+ProcessId: 1268
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2452
+
+Extended Properties: 
+----------------------------------------

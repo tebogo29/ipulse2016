@@ -1,0 +1,212 @@
+----------------------------------------
+Timestamp: 6/10/2016 10:09:07 AM
+
+Message: HandlingInstanceID: 643605e5-42e5-45d4-aa14-157765510b91
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+06/10/2016 12:09:07
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((Convert(Convert(Convert(Convert(Convert(re-i.Status))))) == 2) AndAlso (re-i.Visible == True))).OrderBy(re-i => re-i.FieldValue("priority"))'. Failure: Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("priority").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate>()),
+            '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>))
+        ,
+        '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>))
+    ,
+    '(.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Decimal]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)((System.Int32)((System.Int32)$re-i.Status)))) == 2 && $re-i.Visible == True
+}
+
+.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Decimal]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate $re-i)
+{
+    .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "priority")
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at FWI_Modules_user_TrainingCertificate.GetTraining()
+   at FWI_Modules_user_TrainingCertificate.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/10/2016 10:09:07 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131100258696315661
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/training/courses/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("priority").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("priority")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131100258696315661
+
+ProcessId: 13044
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7872
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/10/2016 10:09:20 AM
+
+Message: HandlingInstanceID: 7b548a4b-3e9a-4e24-8099-69bf39001acc
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+06/10/2016 12:09:20
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((Convert(Convert(Convert(Convert(Convert(re-i.Status))))) == 2) AndAlso (re-i.Visible == True))).OrderBy(re-i => re-i.FieldValue("priority"))'. Failure: Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("priority").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate>()),
+            '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>))
+        ,
+        '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>))
+    ,
+    '(.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Decimal]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)((System.Int32)((System.Int32)$re-i.Status)))) == 2 && $re-i.Visible == True
+}
+
+.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate,System.Decimal]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.TrainingCertificate $re-i)
+{
+    .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "priority")
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at FWI_Modules_user_TrainingCertificate.GetTraining()
+   at FWI_Modules_user_TrainingCertificate.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Web.UI.DesignTimeControl.CreateChildControls()
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/10/2016 10:09:20 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131100258696315661
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/training/courses/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("priority").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("priority")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131100258696315661
+
+ProcessId: 13044
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13892
+
+Extended Properties: 
+----------------------------------------

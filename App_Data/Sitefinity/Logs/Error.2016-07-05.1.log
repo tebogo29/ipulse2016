@@ -1,0 +1,1212 @@
+----------------------------------------
+Timestamp: 6/30/2016 9:41:37 AM
+
+Message: HandlingInstanceID: c716dbfd-f5a9-4953-8fff-2491556b54da
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+06/30/2016 11:41:37
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 9:41:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117489587796295
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/c47154a4-75a4-62bd-81a2-ff00002f4c9e/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117489587796295
+
+ProcessId: 8156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 11:27:28 AM
+
+Message: HandlingInstanceID: b09c3124-7a78-469d-a1d9-4f637481ff8e
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 13:27:27
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The tag contains duplicate 'class' attributes.
+Source : System.Web
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\SfCtrlPresentation\OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+VirtualPath : /SfCtrlPresentation/OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+Line : 40
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.SimpleView.get_Container()
+   at Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.sfres_telerik_sitefinity_resources_sitefinitydefault_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_telerik.sitefinity.resources.sitefinitydefault.aspx.f785aa1a.vnrg-jzd.0.cs:line 0
+   at Telerik.Sitefinity.Web.UI.ControlLiteralRepresentation.Render(HtmlTextWriter writer)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 11:27:27 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The tag contains duplicate 'class' attributes.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : The tag contains duplicate 'class' attributes.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void ProcessError(System.String)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+		   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+		   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11172
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 11:27:39 AM
+
+Message: HandlingInstanceID: 75191ebf-db54-4b36-a4a6-c1e06f56eee9
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 13:27:39
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The tag contains duplicate 'class' attributes.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 11:27:39 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/desktop-biometric-readers
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The tag contains duplicate 'class' attributes.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessError(System.String)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 11:27:49 AM
+
+Message: HandlingInstanceID: 0966f805-077f-4195-b858-31efdc586864
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 13:27:49
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The tag contains duplicate 'class' attributes.
+Source : System.Web
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\SfCtrlPresentation\OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+VirtualPath : /SfCtrlPresentation/OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+Line : 40
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.SimpleView.get_Container()
+   at Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 11:27:49 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Template/138e51a4-75a4-62bd-81a2-ff00002f4c9e
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The tag contains duplicate 'class' attributes.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : The tag contains duplicate 'class' attributes.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void ProcessError(System.String)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+		   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+		   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10188
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 12:02:10 PM
+
+Message: HandlingInstanceID: 846db7bc-c68b-42a0-a917-b02ee8d60802
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 14:02:10
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The tag contains duplicate 'class' attributes.
+Source : System.Web
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\SfCtrlPresentation\OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+VirtualPath : /SfCtrlPresentation/OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+Line : 50
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.SimpleView.get_Container()
+   at Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.sfres_telerik_sitefinity_resources_sitefinitydefault_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_telerik.sitefinity.resources.sitefinitydefault.aspx.f785aa1a.vnrg-jzd.0.cs:line 0
+   at Telerik.Sitefinity.Web.UI.ControlLiteralRepresentation.Render(HtmlTextWriter writer)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 12:02:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The tag contains duplicate 'class' attributes.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : The tag contains duplicate 'class' attributes.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void ProcessError(System.String)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+		   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+		   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8556
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 12:02:21 PM
+
+Message: HandlingInstanceID: 842be7d8-2258-48be-aefa-875b28763409
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 14:02:21
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The tag contains duplicate 'class' attributes.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 12:02:21 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/industries/mining
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The tag contains duplicate 'class' attributes.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessError(System.String)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12268
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 12:02:29 PM
+
+Message: HandlingInstanceID: 83734ca5-3bd9-4a0d-9b90-87559bebe2c3
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 14:02:29
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The tag contains duplicate 'class' attributes.
+Source : System.Web
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\SfCtrlPresentation\OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+VirtualPath : /SfCtrlPresentation/OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+Line : 50
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.SimpleView.get_Container()
+   at Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 12:02:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Template/138e51a4-75a4-62bd-81a2-ff00002f4c9e
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The tag contains duplicate 'class' attributes.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : The tag contains duplicate 'class' attributes.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void ProcessError(System.String)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+		   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+		   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13824
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 12:02:56 PM
+
+Message: HandlingInstanceID: d210a75b-a697-475b-90a8-f2dfe4e51cd6
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 14:02:56
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The server tag is not well formed.
+Source : System.Web
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\SfCtrlPresentation\OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+VirtualPath : /SfCtrlPresentation/OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+Line : 50
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.SimpleView.get_Container()
+   at Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.sfres_telerik_sitefinity_resources_sitefinitydefault_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_telerik.sitefinity.resources.sitefinitydefault.aspx.f785aa1a.vnrg-jzd.0.cs:line 0
+   at Telerik.Sitefinity.Web.UI.ControlLiteralRepresentation.Render(HtmlTextWriter writer)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 12:02:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The server tag is not well formed.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessError(System.String)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13040
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 12:03:08 PM
+
+Message: HandlingInstanceID: 69692d38-ff25-4c87-aaee-0d9c573665dc
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+06/30/2016 14:03:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The server tag is not well formed.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessError(System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 12:03:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/industries/mining
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12268
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 12:03:16 PM
+
+Message: HandlingInstanceID: 2851759a-e7b5-4cf4-9e90-06b8dd033038
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 14:03:16
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The server tag is not well formed.
+Source : System.Web
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\SfCtrlPresentation\OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+VirtualPath : /SfCtrlPresentation/OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+Line : 50
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.SimpleView.get_Container()
+   at Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 12:03:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117589023932711
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Template/138e51a4-75a4-62bd-81a2-ff00002f4c9e
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The server tag is not well formed.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessError(System.String)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117589023932711
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 2:58:40 PM
+
+Message: HandlingInstanceID: 7d9f58f2-2003-49e3-8813-c12fe1703102
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/30/2016 16:58:40
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The server tag is not well formed.
+Source : System.Web
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\SfCtrlPresentation\OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+VirtualPath : /SfCtrlPresentation/OpenAccessDataProvider_6a6754a475a462bd81a2ff00002f4c9e.ascx
+Line : 37
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.SimpleView.get_Container()
+   at Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.sfres_telerik_sitefinity_resources_sitefinitydefault_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_telerik.sitefinity.resources.sitefinitydefault.aspx.f785aa1a.vnrg-jzd.0.cs:line 0
+   at Telerik.Sitefinity.Web.UI.ControlLiteralRepresentation.Render(HtmlTextWriter writer)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 2:58:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-2-131117716015789837
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The server tag is not well formed.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessError(System.String)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-2-131117716015789837
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9340
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 2:58:42 PM
+
+Message: HandlingInstanceID: 1ff9dd72-046b-4172-98f0-c16b80486e3d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+06/30/2016 16:58:42
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The server tag is not well formed.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessError(System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 2:58:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-2-131117716015789837
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Template/138e51a4-75a4-62bd-81a2-ff00002f4c9e/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-2-131117716015789837
+
+ProcessId: 304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 4:12:09 PM
+
+Message: HandlingInstanceID: ac893e32-84cc-42bf-93d5-48dba5a17102
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/30/2016 18:12:09
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : This item is locked by 'Anton'. Most likely it has been unlocked by a user with administrative permissions and then locked by the other user.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : This item is locked by 'Anton'. Most likely it has been unlocked by a user with administrative permissions and then locked by the other user.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean PublishTemplateDraft(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.PublishTemplateDraft(String draftId)
+   at SyncInvokePublishTemplateDraft(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 4:12:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117753473476293
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/Publish/
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : This item is locked by 'Anton'. Most likely it has been unlocked by a user with administrative permissions and then locked by the other user.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : TDraft CheckIn(TDraft, System.Globalization.CultureInfo, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.Sitefinity.Lifecycle.LifecycleDecorator`2.CheckIn(TDraft temp, CultureInfo culture, Boolean deleteTemp)
+	   at Telerik.Sitefinity.Modules.Pages.PageManager.PublishTemplateDraft(TemplateDraft draft, CultureInfo culture)
+	   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.PublishTemplateDraft(String draftId)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117753473476293
+
+ProcessId: 7264
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7816
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/30/2016 4:12:24 PM
+
+Message: HandlingInstanceID: a7e752c5-965f-4768-9c74-c5752614ec51
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+06/30/2016 18:12:24
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/30/2016 4:12:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131117753473476293
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/837754a4-75a4-62bd-81a2-ff00002f4c9e/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131117753473476293
+
+ProcessId: 7264
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7816
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,729 @@
+----------------------------------------
+Timestamp: 5/16/2016 9:18:20 AM
+
+Message: HandlingInstanceID: 35238ab9-a4ff-44da-9eb2-e1e72ca1e343
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+05/16/2016 11:18:20
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((Convert(Convert(Convert(Convert(Convert(re-i.Status))))) == 2) AndAlso (re-i.Visible == True))).OrderBy(re-i => re-i.FieldValue("Priority"))'. Failure: Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>()),
+            '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+        '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+    '(.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)((System.Int32)((System.Int32)$re-i.Status)))) == 2 && $re-i.Visible == True
+}
+
+.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Priority")
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at FWI_Modules_user_People.LoadLevel(String intLevel)
+   at FWI_Modules_user_People.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/16/2016 9:18:20 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131078633444784987
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("Priority")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131078633444784987
+
+ProcessId: 6792
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6728
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-16 12:23:52 PM
+
+Message: HandlingInstanceID: 8fb03ef1-5bb8-497d-8276-5bd58ef0a5f3
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/16/2016 14:23:52
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-16 12:23:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-2-131078731839969300
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-2-131078731839969300
+
+ProcessId: 13340
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:11220
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-16 12:39:33 PM
+
+Message: HandlingInstanceID: 72cea952-ee9b-4605-a437-469c193185a7
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/16/2016 14:39:33
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-16 12:39:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-2-131078731839969300
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-2-131078731839969300
+
+ProcessId: 13340
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:7068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-16 12:42:36 PM
+
+Message: HandlingInstanceID: 9cd0e216-2276-4a89-9fdc-0ac3409e789d
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/16/2016 14:42:36
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-16 12:42:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-2-131078731839969300
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-2-131078731839969300
+
+ProcessId: 13340
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:11220
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/16/2016 2:23:31 PM
+
+Message: HandlingInstanceID: d1436d77-6eab-492c-98fa-5d755d4bf998
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+05/16/2016 16:23:31
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((Convert(Convert(Convert(Convert(Convert(re-i.Status))))) == 2) AndAlso (re-i.Visible == True))).OrderBy(re-i => re-i.FieldValue("Priority"))'. Failure: Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>()),
+            '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+        '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+    '(.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)((System.Int32)((System.Int32)$re-i.Status)))) == 2 && $re-i.Visible == True
+}
+
+.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Priority")
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at FWI_Modules_user_People.LoadLevel(String intLevel)
+   at FWI_Modules_user_People.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/16/2016 2:23:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131078807220188423
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("Priority")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131078807220188423
+
+ProcessId: 7452
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6720
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/16/2016 2:24:10 PM
+
+Message: HandlingInstanceID: 95bea8b6-24d0-4b77-b2b7-81c966a92ff1
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+05/16/2016 16:24:10
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((Convert(Convert(Convert(Convert(Convert(re-i.Status))))) == 2) AndAlso (re-i.Visible == True))).OrderBy(re-i => re-i.FieldValue("Priority"))'. Failure: Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>()),
+            '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+        '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+    '(.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)((System.Int32)((System.Int32)$re-i.Status)))) == 2 && $re-i.Visible == True
+}
+
+.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Priority")
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at FWI_Modules_user_People.LoadLevel(String intLevel)
+   at FWI_Modules_user_People.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/16/2016 2:24:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131078807220188423
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("Priority")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131078807220188423
+
+ProcessId: 7452
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7380
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/16/2016 2:28:59 PM
+
+Message: HandlingInstanceID: be480764-f41f-4019-9dbe-5ed5a241b330
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+05/16/2016 16:28:59
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/16/2016 2:28:59 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131078807220188423
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/79bc53a4-75a4-62bd-81a2-ff00002f4c9e/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131078807220188423
+
+ProcessId: 7452
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12768
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-16 03:09:13 PM
+
+Message: HandlingInstanceID: e8c3c2b4-4bb2-4e94-aa34-5ca045d86d02
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/16/2016 17:09:13
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-16 03:09:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131078847430859863
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131078847430859863
+
+ProcessId: 9036
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:10588
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/17/2016 9:13:49 AM
+
+Message: HandlingInstanceID: 3ee901f4-ba67-46bd-a8e6-fe18df15b39b
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+05/17/2016 11:13:49
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((Convert(Convert(Convert(Convert(Convert(re-i.Status))))) == 2) AndAlso (re-i.Visible == True))).OrderBy(re-i => re-i.FieldValue("Priority"))'. Failure: Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.OrderBy(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People>()),
+            '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+        '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>)),
+    '(.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)((System.Int32)((System.Int32)$re-i.Status)))) == 2 && $re-i.Visible == True
+}
+
+.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People,System.Decimal]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.People $re-i)
+{
+    .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Priority")
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+   at FWI_Modules_user_People.LoadLevel(String intLevel)
+   at FWI_Modules_user_People.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/17/2016 9:13:49 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131079439363081196
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people
+	Inner Exception
+	---------------
+	Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Database mapped field uses different type 'System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+Parameter name: methodCallExpression
+Actual value was re-i.FieldValue("Priority").
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	ActualValue : re-i.FieldValue("Priority")
+	ParamName : methodCallExpression
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233086
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131079439363081196
+
+ProcessId: 7420
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4856
+
+Extended Properties: 
+----------------------------------------

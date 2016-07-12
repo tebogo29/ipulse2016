@@ -1,0 +1,127 @@
+----------------------------------------
+Timestamp: 7/5/2016 2:52:38 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 2:52:38 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 2:52:38 PM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 2:52:38 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 2:52:38 PM
+
+Message: -- System.String[] Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product.Type2
+CREATE TABLE [firewatermodules_product_type2] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] varchar(255) NULL,                -- <value>
+    CONSTRAINT [pk_frwtrmdls_prdct_ty_4D2CDCAC] PRIMARY KEY ([base_id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 2:52:38 PM
+
+Message: ALTER TABLE [firewatermodules_product_type2] ADD CONSTRAINT [ref_frwtrmdls_prdct_t_97424F06] FOREIGN KEY ([base_id]) REFERENCES [firewatermodules_product]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 2:52:38 PM
+
+Message: -- Index 'idx_frwtrmdls_prduct_type2_val' was not detected in the database. It will be created
+CREATE INDEX [idx_frwtrmdls_prduct_type2_val] ON [firewatermodules_product_type2]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:09:56 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:09:56 PM
+
+Message: -- dropping table [firewatermodules_product_type2]
+DROP TABLE [firewatermodules_product_type2]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:15:21 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:15:21 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:15:21 PM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:15:21 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:15:21 PM
+
+Message: -- System.String[] Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product.Type2
+CREATE TABLE [firewatermodules_product_type2] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] varchar(255) NULL,                -- <value>
+    CONSTRAINT [pk_frwtrmdls_prdct_ty_4D2CDCAC] PRIMARY KEY ([base_id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:15:21 PM
+
+Message: ALTER TABLE [firewatermodules_product_type2] ADD CONSTRAINT [ref_frwtrmdls_prdct_t_97424F06] FOREIGN KEY ([base_id]) REFERENCES [firewatermodules_product]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 7/5/2016 3:15:21 PM
+
+Message: -- Index 'idx_frwtrmdls_prduct_type2_val' was not detected in the database. It will be created
+CREATE INDEX [idx_frwtrmdls_prduct_type2_val] ON [firewatermodules_product_type2]([val])
+
+
+----------------------------------------

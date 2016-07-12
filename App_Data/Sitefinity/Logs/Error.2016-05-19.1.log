@@ -1,0 +1,2670 @@
+----------------------------------------
+Timestamp: 2016-05-18 09:49:46 AM
+
+Message: HandlingInstanceID: f9ae20e8-0da9-4775-b61b-436a983b85ef
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 11:49:46
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 09:49:46 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080281418824892
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080281418824892
+
+ProcessId: 10372
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:14040
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 09:49:48 AM
+
+Message: HandlingInstanceID: adee5885-36e2-4513-ab34-c0d741e99d76
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 11:49:48
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj7_1.del'.
+Source : mscorlib
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj7_1.del
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void WinIOError(Int32, System.String)
+HResult : -2147024894
+Stack Trace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Store.SimpleFSDirectory.SimpleFSIndexInput.Descriptor..ctor(FileInfo file, FileAccess mode)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Store.SimpleFSDirectory.OpenInput(String name, Int32 bufferSize)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Util.BitVector..ctor(Directory d, String name)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentReader.Get(Boolean readOnly, Directory dir, SegmentInfo si, Int32 readBufferSize, Boolean doOpenStores, Int32 termInfosIndexDivisor)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexWriter.ReaderPool.Get(SegmentInfo info, Boolean doOpenStores, Int32 readBufferSize, Int32 termsIndexDivisor)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexWriter.ReaderPool.Get(SegmentInfo info, Boolean doOpenStores)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.DocumentsWriter.ApplyDeletes(SegmentInfos infos)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexWriter.ApplyDeletes()
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexWriter.DoFlushInternal(Boolean flushDocStores, Boolean flushDeletes)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexWriter.DoFlush(Boolean flushDocStores, Boolean flushDeletes)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexWriter.CloseInternal(Boolean waitForMerges)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.UpdateIndex(String indexName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 09:49:48 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080281418824892
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080281418824892
+
+ProcessId: 10372
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:12760
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:08:35 PM
+
+Message: HandlingInstanceID: e2f33fff-f80f-4ee3-adf3-1b803d713e48
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:08:35
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMasterDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:08:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/3eca53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=05ca53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4740
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:08:35 PM
+
+Message: HandlingInstanceID: 660dffb7-67a2-4665-8351-5765034b93bd
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:08:35
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetailDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:08:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/3eca53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=05ca53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4740
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:08:40 PM
+
+Message: HandlingInstanceID: 06b25bc7-73c5-4305-9b76-3b108e0b6b21
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:08:40
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider_a2c553a475a462bd81a2ff00002f4c9e.ascx". The control must be assignable from type "Telerik.Web.UI.RadListView" and must have ID "dynamicContentListView".
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:08:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4740
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:08:40 PM
+
+Message: HandlingInstanceID: ac50f269-d2fa-4787-b1d8-27d807f3f598
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:08:40
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider_a2c553a475a462bd81a2ff00002f4c9e.ascx". The control must be assignable from type "Telerik.Web.UI.RadListView" and must have ID "dynamicContentListView".
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:08:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/hi/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:200
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:09:00 PM
+
+Message: HandlingInstanceID: ceabc42e-c14c-482f-be6b-644c0ac2976e
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:09:00
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider_a2c553a475a462bd81a2ff00002f4c9e.ascx". The control must be assignable from type "Telerik.Web.UI.RadListView" and must have ID "dynamicContentListView".
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:09:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4740
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:09:18 PM
+
+Message: HandlingInstanceID: 67fa74a9-8904-4d1e-8d56-889dc478428e
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:09:18
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider_a2c553a475a462bd81a2ff00002f4c9e.ascx". The control must be assignable from type "Telerik.Web.UI.RadListView" and must have ID "dynamicContentListView".
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:09:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4520
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:09:49 PM
+
+Message: HandlingInstanceID: c02f5654-77d3-4f5a-a846-7cd97ab8c3cb
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:09:49
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMasterDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:09:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/5fca53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=05ca53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11700
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:09:49 PM
+
+Message: HandlingInstanceID: dcac6426-c8a7-4e66-bc66-4929215c3788
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/18/2016 15:09:49
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetailDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:09:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/5fca53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=05ca53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11700
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 1:16:39 PM
+
+Message: HandlingInstanceID: 48b6d7fc-e94e-4fdb-9395-7dd9c8a34608
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+05/18/2016 15:16:39
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.Frontend.Mvc.Models.ItemViewModel' to type 'System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink]'.
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink] CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2147467262
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_PeopleV2_List_People_cshtml.Execute() in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_list.people.cshtml.c4ed0787.oliu0ybf.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 1:16:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11700
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 01:18:06 PM
+
+Message: HandlingInstanceID: b944704b-4a45-425b-a3d6-639bde673236
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 15:18:06
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 01:18:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080463614891640
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080463614891640
+
+ProcessId: 4304
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:8184
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 3:31:47 PM
+
+Message: HandlingInstanceID: 2c1a13d6-fa52-4b03-a184-ab7806ae553e
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+05/18/2016 17:31:47
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Configuration.ConfigElement <LoadCollectionElement>b__1c(System.Xml.XmlReader)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass20.<LoadCollectionElement>b__1c(XmlReader xmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 3:31:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : Alon
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-People-dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13252
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 3:47:41 PM
+
+Message: HandlingInstanceID: 8486bd42-b9b2-4925-8bc0-dd73c88430ef
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+05/18/2016 17:47:41
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Configuration.ConfigElement <LoadCollectionElement>b__1c(System.Xml.XmlReader)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass20.<LoadCollectionElement>b__1c(XmlReader xmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 3:47:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-People-dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5964
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 4:37:35 PM
+
+Message: HandlingInstanceID: fd026fb3-8c8c-4edc-817a-93d3151cacc8
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+05/18/2016 18:37:35
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Configuration.ConfigElement <LoadCollectionElement>b__1c(System.Xml.XmlReader)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass20.<LoadCollectionElement>b__1c(XmlReader xmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 4:37:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-People-dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1548
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 4:47:25 PM
+
+Message: HandlingInstanceID: 826155fe-3222-41de-bc05-e5ce5aa59d1d
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+05/18/2016 18:47:24
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.Frontend.Mvc.Models.ItemViewModel' to type 'System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink]'.
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink] CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2147467262
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_PeopleV2_List_People_cshtml.Execute() in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_list.people.cshtml.c4ed0787.oliu0ybf.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 4:47:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8300
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 4:47:44 PM
+
+Message: HandlingInstanceID: bc86867d-f11e-40a7-83a9-dee930117951
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+05/18/2016 18:47:44
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.Frontend.Mvc.Models.ItemViewModel' to type 'System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink]'.
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink] CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2147467262
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_PeopleV2_List_People_cshtml.Execute() in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_list.people.cshtml.c4ed0787.oliu0ybf.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 4:47:44 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10936
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/18/2016 4:47:57 PM
+
+Message: HandlingInstanceID: 73497f7a-0acc-4ec2-a82a-0fc41b85bbc2
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+05/18/2016 18:47:57
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'Telerik.Sitefinity.Frontend.Mvc.Models.ItemViewModel' to type 'System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink]'.
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Model.ContentLinks.ContentLink] CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2147467262
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_PeopleV2_List_People_cshtml.Execute() in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\01760ab5\4e0a9792\App_Web_list.people.cshtml.c4ed0787.oliu0ybf.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/18/2016 4:47:57 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/people/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10936
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 05:14:28 PM
+
+Message: HandlingInstanceID: 6a7bb919-3465-4dc5-9fdb-0d64a7ca9f6a
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 19:14:28
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 05:14:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:9068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 05:19:26 PM
+
+Message: HandlingInstanceID: 270459c3-1406-4180-8129-50551429f956
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 19:19:26
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 05:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:3332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 05:43:54 PM
+
+Message: HandlingInstanceID: f2c8de6c-5afc-4756-ba95-b49574c730da
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 19:43:54
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 05:43:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:9068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 05:55:27 PM
+
+Message: HandlingInstanceID: 14a35265-6a54-41da-8c0a-eb42b0e8daae
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 19:55:27
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 05:55:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:3332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 05:58:41 PM
+
+Message: HandlingInstanceID: 2a7d1233-ce02-419e-84ff-c79b436bb1e9
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 19:58:41
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 05:58:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:9068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 05:59:46 PM
+
+Message: HandlingInstanceID: 9df53a5b-947c-4056-8bf4-96d2254ef138
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 19:59:46
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 05:59:46 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:3332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-18 06:00:32 PM
+
+Message: HandlingInstanceID: 5063581a-8566-4dee-bd8a-cf9dd2bf6a84
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/18/2016 20:00:32
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-18 06:00:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131080555295389117
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131080555295389117
+
+ProcessId: 6224
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:9068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 08:31:47 AM
+
+Message: HandlingInstanceID: ad77fb96-f732-43e2-99ed-7f9d3875629f
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 10:31:47
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 08:31:47 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:8072
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 08:32:31 AM
+
+Message: HandlingInstanceID: 5c389ab1-e2c2-482c-8825-c96d95db25d7
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 10:32:31
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 08:32:31 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:10060
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 08:33:12 AM
+
+Message: HandlingInstanceID: 6b7bac8a-55af-4a4d-91dc-67376d28fbd9
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 10:33:12
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 08:33:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:8072
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 08:39:30 AM
+
+Message: HandlingInstanceID: 8cc9a3b8-c61d-424d-a7a8-e9198a0cbee2
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 10:39:30
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 08:39:30 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:10060
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 08:40:26 AM
+
+Message: HandlingInstanceID: de125891-4d69-4f27-843f-8c85d1c878e8
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 10:40:26
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 08:40:26 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:8072
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 08:58:32 AM
+
+Message: HandlingInstanceID: 51619456-922c-4d6f-9161-0f306677e416
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 10:58:32
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 08:58:32 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:10060
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 09:01:11 AM
+
+Message: HandlingInstanceID: 2dce752a-30eb-4dba-892a-b039056ec55f
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 11:01:11
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 09:01:11 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:8072
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 09:02:04 AM
+
+Message: HandlingInstanceID: 8a159346-a208-4c7c-a6f5-3f854ee67d49
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 11:02:04
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 09:02:04 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:10060
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 09:07:21 AM
+
+Message: HandlingInstanceID: b968ad43-88be-48e7-af94-2fbec3e90e28
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 11:07:21
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 09:07:21 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:8072
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 09:08:04 AM
+
+Message: HandlingInstanceID: 1c7db115-998e-4a8d-a699-4efacada22c4
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 11:08:04
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 09:08:04 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:10060
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 09:30:48 AM
+
+Message: HandlingInstanceID: 0f9500c5-6a32-4b62-afe8-8600d0f19944
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 11:30:48
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 09:30:48 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:8072
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:38:12 AM
+
+Message: HandlingInstanceID: 8efc4bdd-e06d-490e-ad3a-5d287c9f621b
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2016 11:38:12
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMasterDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/19/2016 9:38:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/e1cc53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=aebc53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:38:12 AM
+
+Message: HandlingInstanceID: 242570f2-7b8a-410d-8791-ecc1b8a5a715
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2016 11:38:12
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetailDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/19/2016 9:38:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/e1cc53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=aebc53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:38:17 AM
+
+Message: HandlingInstanceID: b8360350-4a28-4f06-bd97-a4aa757c042e
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2016 11:38:17
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMasterDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/19/2016 9:38:17 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/e1cc53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=aebc53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:38:17 AM
+
+Message: HandlingInstanceID: 395283da-7dfe-40dd-bcaf-db76e799aa42
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2016 11:38:17
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetailDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/19/2016 9:38:17 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/e1cc53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=aebc53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 09:38:30 AM
+
+Message: HandlingInstanceID: 8167f2a8-24bb-4100-919d-2b6e0e27da3b
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 11:38:30
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 09:38:30 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-1
+
+Win32 ThreadId:13248
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:42:37 AM
+
+Message: HandlingInstanceID: c785d70b-ad19-4896-8379-7ea9306771f4
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2016 11:42:37
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMasterDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/19/2016 9:42:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/e1cc53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=aebc53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14216
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:42:37 AM
+
+Message: HandlingInstanceID: c1f48beb-c02c-4605-9ef4-7092679adc79
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2016 11:42:37
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Property accessor 'ExternalClientScripts' on object 'Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetailDefinition' threw the following exception:'Object reference not set to an instance of an object.'
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object GetValue(System.Object)
+HResult : -2146232828
+Stack Trace :    at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Telerik.Sitefinity.Modules.Pages.PropertyPersisters.ObjectDataUtility.GetPropertyValue(PropertyDescriptor descriptor, Object component)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/19/2016 9:42:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/e1cc53a4-75a4-62bd-81a2-ff00002f4c9e/?pageId=aebc53a4-75a4-62bd-81a2-ff00002f4c9e&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.Generic.Dictionary`2[System.String,System.String] get_ExternalClientScripts()
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewDefinition.get_ExternalClientScripts()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14216
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-19 09:42:41 AM
+
+Message: HandlingInstanceID: f29e6e08-646e-4eb3-9ab3-1174cdb3e973
+An exception of type 'System.IO.FileNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------
+05/19/2016 11:42:41
+Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find file 'D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs'.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+FileName : D:\Sites\clients\ipulse\websites\ipulse_2016\App_Data\Sitefinity\Search\full-site\_fj8.cfs
+FusionLog : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object Run(Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexCommit)
+HResult : -2147024894
+Stack Trace :    at Telerik.Sitefinity.Utilities.Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Telerik.Sitefinity.Utilities.Lucene.Net.Index.IndexReader.Open(String path, Boolean readOnly)
+   at Telerik.Sitefinity.Services.Search.Data.LuceneSearchService.RemoveDocuments(String catalogueName, IEnumerable`1 documents)
+   at Telerik.Sitefinity.Services.Search.Publishing.SearchIndexingTask.RunTask(Object[] args)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 2016-05-19 09:42:41 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131081161222083138
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131081161222083138
+
+ProcessId: 7156
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:13268
+
+Extended Properties: 
+----------------------------------------

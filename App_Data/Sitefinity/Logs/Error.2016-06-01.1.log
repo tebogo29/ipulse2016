@@ -1,0 +1,2054 @@
+----------------------------------------
+Timestamp: 5/30/2016 9:24:06 AM
+
+Message: HandlingInstanceID: 7aef75ed-9fa6-4c19-93cf-c484489049ee
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 11:24:06
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 9:24:06 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090701053758835
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/products/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090701053758835
+
+ProcessId: 13096
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13012
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 12:43:07 PM
+
+Message: HandlingInstanceID: 6bd0e045-718e-4437-ba84-97fc07693110
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 14:43:06
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 12:43:07 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/about-us/overview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 12:57:16 PM
+
+Message: HandlingInstanceID: 67105d33-4123-4fbd-879a-bc8d4014f4fa
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 14:57:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 12:57:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Pages
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:11:01 PM
+
+Message: HandlingInstanceID: 9bf0c9e1-92af-4028-a919-0e258020d303
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 15:11:01
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:11:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5732
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:14:12 PM
+
+Message: HandlingInstanceID: b377f5c8-7826-4e70-9c46-fc6ec0c60115
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 15:14:12
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:14:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8648
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:21:44 PM
+
+Message: HandlingInstanceID: 7ee77569-93f4-4cd3-93e7-9cd6b7146385
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 15:21:44
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:21:44 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Pages
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5732
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:41:52 PM
+
+Message: HandlingInstanceID: 1ef30977-006d-497d-8005-542bff9a69c8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 15:41:52
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:41:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:44:52 PM
+
+Message: HandlingInstanceID: d7204d2f-136d-4195-90d3-0db9775867be
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 15:44:52
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:44:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:44:55 PM
+
+Message: HandlingInstanceID: b2c72587-52d1-430c-a04a-53f26f974f28
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 15:44:55
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:44:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:51:40 PM
+
+Message: HandlingInstanceID: 19c6e9f2-f940-40d6-9831-375324854aff
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 15:51:40
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:51:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:54:35 PM
+
+Message: HandlingInstanceID: 5f2c9e35-40de-43dd-8fcd-6f87e7a1b3ad
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 15:54:35
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:54:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11804
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 1:56:06 PM
+
+Message: HandlingInstanceID: fd56e6cc-29e8-4540-950d-209770b5263a
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 15:56:06
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 1:56:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5732
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:01:01 PM
+
+Message: HandlingInstanceID: f6ed8467-397b-4835-97c7-e48458a48ad7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+05/30/2016 16:01:01
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:01:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Product-dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:09:10 PM
+
+Message: HandlingInstanceID: 30f22e41-be44-475a-ae78-7e2207da1d59
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:09:10
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:09:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Product-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:09:16 PM
+
+Message: HandlingInstanceID: fd382763-af84-4acb-81c0-ff86ab031f05
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:09:16
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:09:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10348
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:12:27 PM
+
+Message: HandlingInstanceID: 676757d6-86c4-4fbf-8ae1-942aa8529a6b
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:12:27
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:12:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5732
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:13:58 PM
+
+Message: HandlingInstanceID: bb3bf965-628e-4dc0-a125-935f805aae64
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:13:58
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:13:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8648
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:15:04 PM
+
+Message: HandlingInstanceID: bc3293ec-d771-4097-a63e-a4a7ccdcb0c9
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:15:04
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:15:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:16:27 PM
+
+Message: HandlingInstanceID: f28991f9-163c-404c-b689-6ae0fad680d5
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:16:27
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:16:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : admin
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:15124
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:17:58 PM
+
+Message: HandlingInstanceID: f276f5e1-7646-4823-ba59-862272ec28ab
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:17:58
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:17:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8648
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:21:12 PM
+
+Message: HandlingInstanceID: 68d25180-3056-4b69-9c3e-b422c3ed0a01
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:21:12
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:21:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 5/30/2016 2:35:30 PM
+
+Message: HandlingInstanceID: dcd0faf1-0e90-4bf9-8aa8-3f32cc13d392
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+05/30/2016 16:35:30
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Error executing query: System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT a.[id] AS COL1, a.[application_name] AS COL2, a.[expand_text] AS COL3, a.[is_expandable] AS COL4, a.[is_expanded_by_default] AS COL5, a.[last_modified] AS COL6, a.[nme] AS COL7, a.[ordinal] AS COL8, a.[parent_type_id] AS COL9, a.[title] AS COL10, a.[voa_version] AS COL11 FROM [sf_mb_fields_backend_section] a WHERE a.[application_name] = ?                                       AND a.[parent_type_id] = ?                                       ORDER BY COL8, COL1  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.fetchNextQueryResult(ApplicationContext context, RunningQuery runningQuery, Int32 skipAmount)
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.Initialize()
+   at OpenAccessRuntime.DataObjects.ForwardQueryResult.get_Item(Int32 indexParam)
+   at OpenAccessRuntime.ListEnumerator.setCurrent(Int32 _pos)
+   at OpenAccessRuntime.ListEnumerator.Move(Int32 relative)
+   at Telerik.OpenAccess.Query.TypedEnumerator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleTypeGraph(DynamicModuleType dynamicModuleType, Boolean excludeSpecialFields, Boolean forceReload)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.LoadDynamicModuleGraph(DynamicModule dynamicModule, Boolean forceReload, Boolean excludeSpecialFields)
+   at Telerik.Sitefinity.DynamicModules.Builder.DynamicModulesCache..ctor(ModuleBuilderManager manager)
+   at Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderManager.GetModules()
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.DefineMasterListView(ContentViewControlElement contentView, Guid dynamicTypeId)
+   at Telerik.Sitefinity.DynamicModules.DynamicModulesDefinitions.<>c__DisplayClass8.<DefineContentViewControl>b__1()
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.<>c__DisplayClass2.<AddLazyInternal>b__1()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass28.<LoadCollectionElement>b__1d(XmlReader XmlReader)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElement(String relativeFilePath, Func`2 elementFactory, LoadOptions options, UpgradingInfo upgradingInfo, Boolean isDefault)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.<>c__DisplayClass26.<LoadCollectionElement>b__1e()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.<>c__DisplayClass1.<Unload>b__0()
+   at System.Lazy`1.CreateValue()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.get_Value()
+   at Telerik.Sitefinity.Configuration.ConfigElementLazyItem`1.get_Element()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.get_Views()
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendBackendDefinition(IContentViewControlDefinition contentViewControlDefinition, String backendViewName, FieldDisplayMode displayMode, Boolean isHidden)
+   at Telerik.Sitefinity.Frontend.Forms.FormsDefinitionsExtender.ExtendDefinition(IContentViewControlDefinition contentViewControlDefinition)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition.Initialize(String controlDefinitionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager(String transactionName)
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 5/30/2016 2:35:30 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131090832789707540
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Content/Firewater-Modules-Banner-dashboard
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery(System.Nullable`1[System.Int32])
+	HResult : -2146233040
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery(Nullable`1 commandTimeout)
+	   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131090832789707540
+
+ProcessId: 5516
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11724
+
+Extended Properties: 
+----------------------------------------

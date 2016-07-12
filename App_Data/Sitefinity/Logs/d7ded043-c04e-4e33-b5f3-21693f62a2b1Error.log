@@ -1,0 +1,910 @@
+----------------------------------------
+Timestamp: 6/14/2016 8:31:09 AM
+
+Message: HandlingInstanceID: 500ff0ed-e823-49b1-a7ec-b200fcb1698b
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 10:31:09
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 8:31:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/batchPublishDraft/
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Title").ToLower() == value(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle.ToLower())) AndAlso (re-i.Visible == True)))'. Failure: Non-static method requires a target.
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && .Call (.Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Title")).ToLower() == .Call (.Constant<FWI_Modules_user_ProductDetails+<>c__DisplayClass0>(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle).ToLower()
+    && $re-i.Visible == True
+}
+
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+	   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+	   at FWI_Modules_user_ProductDetails.GetProductDetails(String strTitle)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Non-static method requires a target.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void CheckConsistency(System.Object)
+		HResult : -2146232829
+		Stack Trace :    at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+		   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.LinqExecutor.VisitMethodCall(MethodCallExpression methodCallExpression, Object context)
+		   at Telerik.OpenAccess.Query.ExpressionWalker.Visit(Expression exp, Object context)
+		   at Telerik.OpenAccess.Query.LinqExecutor.GetValues(String[] name, Object[] groupResolutionParamValues, ExpressionCompiler compiler)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12596
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 8:31:09 AM
+
+Message: HandlingInstanceID: 949ca8ae-292f-4c86-991c-359e059cbecd
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 10:31:09
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 8:31:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/batchPublishDraft/
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Title").ToLower() == value(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle.ToLower())) AndAlso (re-i.Visible == True)))'. Failure: Non-static method requires a target.
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && .Call (.Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Title")).ToLower() == .Call (.Constant<FWI_Modules_user_ProductDetails+<>c__DisplayClass0>(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle).ToLower()
+    && $re-i.Visible == True
+}
+
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+	   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+	   at FWI_Modules_user_ProductDetails.GetProductDetails(String strTitle)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Non-static method requires a target.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void CheckConsistency(System.Object)
+		HResult : -2146232829
+		Stack Trace :    at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+		   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.LinqExecutor.VisitMethodCall(MethodCallExpression methodCallExpression, Object context)
+		   at Telerik.OpenAccess.Query.ExpressionWalker.Visit(Expression exp, Object context)
+		   at Telerik.OpenAccess.Query.LinqExecutor.GetValues(String[] name, Object[] groupResolutionParamValues, ExpressionCompiler compiler)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12596
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 8:31:09 AM
+
+Message: HandlingInstanceID: bd41d0f3-ad9a-4bf0-a770-f6b4cb1e1ad9
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 10:31:09
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 8:31:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/batchPublishDraft/
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Title").ToLower() == value(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle.ToLower())) AndAlso (re-i.Visible == True)))'. Failure: Non-static method requires a target.
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && .Call (.Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Title")).ToLower() == .Call (.Constant<FWI_Modules_user_ProductDetails+<>c__DisplayClass0>(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle).ToLower()
+    && $re-i.Visible == True
+}
+
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+	   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+	   at FWI_Modules_user_ProductDetails.GetProductDetails(String strTitle)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Non-static method requires a target.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void CheckConsistency(System.Object)
+		HResult : -2146232829
+		Stack Trace :    at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+		   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.LinqExecutor.VisitMethodCall(MethodCallExpression methodCallExpression, Object context)
+		   at Telerik.OpenAccess.Query.ExpressionWalker.Visit(Expression exp, Object context)
+		   at Telerik.OpenAccess.Query.LinqExecutor.GetValues(String[] name, Object[] groupResolutionParamValues, ExpressionCompiler compiler)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12596
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 8:31:09 AM
+
+Message: HandlingInstanceID: 83cd3b41-ae6c-4fb4-93b0-eedc87bea5ec
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 10:31:09
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 8:31:09 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/batchPublishDraft/
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Title").ToLower() == value(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle.ToLower())) AndAlso (re-i.Visible == True)))'. Failure: Non-static method requires a target.
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && .Call (.Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Title")).ToLower() == .Call (.Constant<FWI_Modules_user_ProductDetails+<>c__DisplayClass0>(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle).ToLower()
+    && $re-i.Visible == True
+}
+
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+	   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+	   at FWI_Modules_user_ProductDetails.GetProductDetails(String strTitle)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Non-static method requires a target.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void CheckConsistency(System.Object)
+		HResult : -2146232829
+		Stack Trace :    at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+		   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.LinqExecutor.VisitMethodCall(MethodCallExpression methodCallExpression, Object context)
+		   at Telerik.OpenAccess.Query.ExpressionWalker.Visit(Expression exp, Object context)
+		   at Telerik.OpenAccess.Query.LinqExecutor.GetValues(String[] name, Object[] groupResolutionParamValues, ExpressionCompiler compiler)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12596
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 8:48:06 AM
+
+Message: HandlingInstanceID: 2b891029-f0d2-4e0c-bb43-29d77995cc5d
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 10:48:06
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 8:48:06 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Title").ToLower() == value(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle.ToLower())) AndAlso (re-i.Visible == True)))'. Failure: Non-static method requires a target.
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && .Call (.Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Title")).ToLower() == .Call (.Constant<FWI_Modules_user_ProductDetails+<>c__DisplayClass0>(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle).ToLower()
+    && $re-i.Visible == True
+}
+
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+	   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+	   at FWI_Modules_user_ProductDetails.GetProductDetails(String strTitle)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Non-static method requires a target.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void CheckConsistency(System.Object)
+		HResult : -2146232829
+		Stack Trace :    at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+		   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.LinqExecutor.VisitMethodCall(MethodCallExpression methodCallExpression, Object context)
+		   at Telerik.OpenAccess.Query.ExpressionWalker.Visit(Expression exp, Object context)
+		   at Telerik.OpenAccess.Query.LinqExecutor.GetValues(String[] name, Object[] groupResolutionParamValues, ExpressionCompiler compiler)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10700
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 8:48:06 AM
+
+Message: HandlingInstanceID: f2d17669-3fd5-40cf-aa7c-3d1933131386
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 10:48:06
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 8:48:06 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/PagesService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-i => ((((Convert(Convert(Convert(re-i.Status))) == 2) AndAlso (re-i.FieldValue("Active") == True)) AndAlso (re-i.FieldValue("Title").ToLower() == value(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle.ToLower())) AndAlso (re-i.Visible == True)))'. Failure: Non-static method requires a target.
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.Product $re-i)
+{
+    (System.Int32)((System.Int32)((System.Int32)$re-i.Status)) == 2 && .Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Active") == True && .Call (.Call Telerik.OpenAccess.ExtensionMethods.FieldValue(
+        $re-i,
+        "Title")).ToLower() == .Call (.Constant<FWI_Modules_user_ProductDetails+<>c__DisplayClass0>(FWI_Modules_user_ProductDetails+<>c__DisplayClass0).strTitle).ToLower()
+    && $re-i.Visible == True
+}
+
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+	   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.GetEnumerator()
+	   at FWI_Modules_user_ProductDetails.GetProductDetails(String strTitle)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Non-static method requires a target.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void CheckConsistency(System.Object)
+		HResult : -2146232829
+		Stack Trace :    at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+		   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.LinqExecutor.VisitMethodCall(MethodCallExpression methodCallExpression, Object context)
+		   at Telerik.OpenAccess.Query.ExpressionWalker.Visit(Expression exp, Object context)
+		   at Telerik.OpenAccess.Query.LinqExecutor.GetValues(String[] name, Object[] groupResolutionParamValues, ExpressionCompiler compiler)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10700
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 9:30:48 AM
+
+Message: HandlingInstanceID: e8cd3f5b-a24e-4845-9275-cfe49774612b
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 11:30:47
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 9:30:47 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/restapi/recycle-bin/items/494354a4-75a4-62bd-81a2-ff00002f4c9e
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Session state can only be used when enableSessionState is set to true, either in a configuration file or in the Page directive. Please also make sure that System.Web.SessionStateModule or a custom session state module is included in the <configuration>\<system.web>\<httpModules> section in the application configuration.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.SessionState.HttpSessionState get_Session()
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.Page.get_Session()
+	   at App_Master_MasterPage.Page_Load(Object sender, EventArgs e)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10428
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 9:30:48 AM
+
+Message: HandlingInstanceID: 7eb7e1e3-3b55-4cb5-b941-5ee015865467
+An exception of type 'System.Web.HttpUnhandledException' occurred and was caught.
+---------------------------------------------------------------------------------
+06/14/2016 11:30:48
+Type : System.Web.HttpUnhandledException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean HandleError(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at Telerik.Sitefinity.Web.ResourceCombining.InMemoryPageRender.RenderPageInternal(PageNode pageNode, Boolean isPreview, Boolean isIndexMode)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.RenderPage(PageNode node)
+   at Telerik.Sitefinity.Publishing.Pipes.PageInboundPipe.SetWrapperObjectProperties(WrapperObject wrapperObject, PageNode node)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 9:30:48 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103657767332607
+ThreadIdentity : tebogo
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/restapi/recycle-bin/items/494354a4-75a4-62bd-81a2-ff00002f4c9e
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Session state can only be used when enableSessionState is set to true, either in a configuration file or in the Page directive. Please also make sure that System.Web.SessionStateModule or a custom session state module is included in the <configuration>\<system.web>\<httpModules> section in the application configuration.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.SessionState.HttpSessionState get_Session()
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.Page.get_Session()
+	   at App_Master_MasterPage.Page_Load(Object sender, EventArgs e)
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Control.LoadRecursive()
+	   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103657767332607
+
+ProcessId: 8532
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10428
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,211 @@
+----------------------------------------
+Timestamp: 5/25/2016 1:40:50 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.DynamicModules.Builder.Data.OpenAccessModuleBuilderDataProvider;Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider'. User: 'tebogo'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderHelper: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentType(System.Guid, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+Telerik.Sitefinity.DynamicModules.Builder.Web.Services.ContentTypeService: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentTypeInternal(System.String, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+unknown: System.Object SyncInvokeSaveContentType(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage31(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 08:58:03 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 08:58:03 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 08:58:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 08:58:03 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 08:58:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 08:58:33 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 08:58:33 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 11:28:31 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 11:28:31 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 11:28:31 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 11:28:32 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 11:28:32 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 11:29:01 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2016-05-26 11:29:01 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/26/2016 12:05:16 PM
+
+Message: System.Web.HttpParseException (0x80004005): Type 'Telerik.Sitefinity.Web.UI.FieldListView' does not have a public property named 'style'. ---> System.Web.HttpParseException (0x80004005): Type 'Telerik.Sitefinity.Web.UI.FieldListView' does not have a public property named 'style'. ---> System.Web.HttpException (0x80004005): Type 'Telerik.Sitefinity.Web.UI.FieldListView' does not have a public property named 'style'.
+   at System.Web.UI.ControlBuilder.AddProperty(String filter, String name, String value, Boolean mainDirectiveMode)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.get_Container()
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/26/2016 12:05:51 PM
+
+Message: System.Web.HttpParseException (0x80004005): Type 'Telerik.Sitefinity.Web.UI.FieldListView' does not have a public property named 'style'. ---> System.Web.HttpParseException (0x80004005): Type 'Telerik.Sitefinity.Web.UI.FieldListView' does not have a public property named 'style'. ---> System.Web.HttpException (0x80004005): Type 'Telerik.Sitefinity.Web.UI.FieldListView' does not have a public property named 'style'.
+   at System.Web.UI.ControlBuilder.AddProperty(String filter, String name, String value, Boolean mainDirectiveMode)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.CompileControl(String virtualPath)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.LoadControl(String virtualPath, Page page)
+   at Telerik.Sitefinity.Web.UI.VirtualPathTemplate.InstantiateIn(Control container, PlaceHoldersCollection placeHolders)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateContainer(ITemplate template)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.get_Container()
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+
+----------------------------------------

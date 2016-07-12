@@ -1,0 +1,104 @@
+----------------------------------------
+Timestamp: 5/19/2016 9:30:41 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:30:41 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:30:41 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:30:42 AM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.People.Person
+CREATE TABLE [people_person] (
+    [base_id] uniqueidentifier NOT NULL,
+    [ToolTip] NVARCHAR(MAX) NULL,           -- Person.ToolTip
+    [Priority] DECIMAL(20) NULL,            -- Person.Priority
+    [Position] NVARCHAR(255) NULL,          -- Person.Position
+    [Level] NVARCHAR(255) NULL,             -- Person.Level
+    [FullName] NVARCHAR(255) NULL,          -- Person.FullName
+    [EmployeeCode] NVARCHAR(255) NULL,      -- Person.EmployeeCode
+    CONSTRAINT [pk_people_person] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 9:30:42 AM
+
+Message: ALTER TABLE [people_person] ADD CONSTRAINT [ref_ppl_prsn_sf_dynmc_9EBA66AD] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:21:09 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:21:09 PM
+
+Message: -- dropping table [people_person]
+DROP TABLE [people_person]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:25:08 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:25:08 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:25:08 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:25:08 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.People.Person
+CREATE TABLE [people_person] (
+    [base_id] uniqueidentifier NOT NULL,
+    [ToolTip] NVARCHAR(MAX) NULL,           -- Person.ToolTip
+    [Title] NVARCHAR(255) NULL,             -- Person.Title
+    [Priority] DECIMAL(20) NULL,            -- Person.Priority
+    [Position] NVARCHAR(255) NULL,          -- Person.Position
+    [Level] NVARCHAR(255) NULL,             -- Person.Level
+    CONSTRAINT [pk_people_person] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/19/2016 12:25:08 PM
+
+Message: ALTER TABLE [people_person] ADD CONSTRAINT [ref_ppl_prsn_sf_dynmc_9EBA66AD] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------

@@ -1,0 +1,93 @@
+ /******
+ * This stylesheet is part of the Calender Date Picker Script, downloaded from http://start.excudo.net
+ *
+ * See calender_date_picker.js for license details
+ *
+ * Author: Martijn Korse
+ * Website: http://devshed.excudo.net
+ *
+ * Date: 2006-09-07 07:53:21
+ ***/
+#calender {
+	width: 200px;
+	font-family: ms sans serif, sans serif;
+	font-size: 7pt;
+	}
+
+#calenderTable {
+	font-family: ms sans serif, sans serif;
+	border-style: outset;
+	border-width: 2px;
+	border-color: #f7f7f7;
+	background-color: #423e3e;
+	display: none;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	}
+#calenderTable TD {
+	font-family: ms sans serif, sans serif;
+	color:#f7931d;
+	text-align: center;
+	font-size: 7pt;
+	width: 19px;
+	}
+#calenderTableHead TR {
+	background-color: #f7931d;
+	}
+#calenderTableDays TR {
+	background-color: #000000;
+	color: #FFFFFF;
+	}
+#selectMonth, #selectYear {
+	font-family: ms sans serif, sans serif;
+	font-size: 7pt;
+	border-width: 0px;
+	border-style: none;
+	}
+
+#calenderTable A {
+	font-family: ms sans serif, sans serif;
+	font-size: 6pt;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	}
+#calenderTable A:hover {
+	font-family: ms sans serif, sans serif;
+	font-size: 6pt;
+	color:#FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	}
+.normalDay {
+	border: 1px dotted #A6ADB6;
+	cursor: pointer;
+	color: #f7931d;
+	}
+.hlDay {
+	border: 1px dotted white;
+	background-color: #969696;
+	color: #FFFFFF;
+	cursor: pointer;
+	}
+.toDay {
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	color: #993300;
+	font-weight: bold;
+	cursor: pointer;
+	}
+.choosenDay {
+	border: 1px #0878F7;
+	background-color: #000000;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	}
+	
+.dayOfWeek
+{
+    color: white;
+}

@@ -1,0 +1,44 @@
+----------------------------------------
+Timestamp: 6/9/2016 9:23:55 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/9/2016 9:23:55 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/9/2016 9:23:55 AM
+
+Message: -- add column for field Product.Type2
+ALTER TABLE [firewatermodules_product] ADD [Type2] UNIQUEIDENTIFIER NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/9/2016 10:09:37 AM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/9/2016 10:09:37 AM
+
+Message: Removing a column(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/9/2016 10:09:37 AM
+
+Message: -- dropping unknown column [Type2]
+ALTER TABLE [firewatermodules_product] DROP COLUMN [Type2]
+
+
+----------------------------------------

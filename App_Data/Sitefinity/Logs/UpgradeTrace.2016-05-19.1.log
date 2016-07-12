@@ -1,0 +1,66 @@
+----------------------------------------
+Timestamp: 5/16/2016 10:53:56 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/16/2016 10:53:56 AM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/16/2016 10:53:57 AM
+
+Message: -- Index 'idx_sf_rdsgn_md_qry_rl_prnt_md' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_rdsgn_md_qry_rl_prnt_md] ON [sf_rdsgn_media_query_rule]([parent_media_query_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/17/2016 9:42:18 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/17/2016 9:42:18 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/17/2016 9:42:18 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/17/2016 9:42:18 AM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.FirewaterModules.PeopleV2
+CREATE TABLE [firewatermodules_peoplev2] (
+    [base_id] uniqueidentifier NOT NULL,
+    [ToolTIp] NVARCHAR(MAX) NULL,           -- PeopleV2.ToolTIp
+    [Priority] DECIMAL(20) NULL,            -- PeopleV2.Priority
+    [Position] NVARCHAR(255) NULL,          -- PeopleV2.Position
+    [Level] NVARCHAR(255) NULL,             -- PeopleV2.Level
+    [FullName] NVARCHAR(255) NULL,          -- PeopleV2.FullName
+    CONSTRAINT [pk_firewatermodules_peoplev2] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/17/2016 9:42:18 AM
+
+Message: ALTER TABLE [firewatermodules_peoplev2] ADD CONSTRAINT [ref_frwtrmdls_pplv2_s_CFB3610B] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------

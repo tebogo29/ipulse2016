@@ -1,0 +1,248 @@
+----------------------------------------
+Timestamp: 6/14/2016 7:25:28 AM
+
+Message: HandlingInstanceID: ef1130ac-0ffc-40b6-b25a-f12272db7544
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/14/2016 09:25:27
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : TEBOGO-PC
+TimeStamp : 6/14/2016 7:25:28 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 4e952631-1-131103626671104987
+ThreadIdentity : 
+WindowsIdentity : FIREWATER\Tebogo
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TEBOGO-PC
+
+App Domain: 4e952631-1-131103626671104987
+
+ProcessId: 4276
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe
+
+Thread Name: VsCBMThreadPool
+
+Win32 ThreadId:4064
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 12:15:49 PM
+
+Message: HandlingInstanceID: 7878a19e-400f-41a7-97de-04d8b702317b
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+06/14/2016 14:15:49
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access item that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_5654ae84701343679da1e60b64b8dd73.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DeleteControl(ZoneEditorWebServiceArgs state, IControlManager manager)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at SyncInvokeUpdateLayoutState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 12:15:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103790007083040
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/Pages/ZoneEditorService.svc/Layout/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103790007083040
+
+ProcessId: 10244
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8088
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 12:52:29 PM
+
+Message: HandlingInstanceID: 766ad368-1ebe-452d-89e0-d5be4f2d2205
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/14/2016 14:52:29
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL 'gary-chalmers' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL 'gary-chalmers' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String, System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ThrowDuplicateUrlException(String messageFormat, String url)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ValidateUrlExist(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CheckIfUrlIsValid(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 12:52:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103790007083040
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.People.Person&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&duplicate=true&workflowOperation=SaveDraft
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103790007083040
+
+ProcessId: 10244
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13372
+
+Extended Properties: Url - gary-chalmers
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/14/2016 12:52:36 PM
+
+Message: HandlingInstanceID: b6f3df56-9f0f-4199-b650-943cb90bde14
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+06/14/2016 14:52:36
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL 'gary-chalmers' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL 'gary-chalmers' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String, System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ThrowDuplicateUrlException(String messageFormat, String url)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.ValidateUrlExist(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.CheckIfUrlIsValid(DynamicModuleManager manager, DynamicContent dataItem, Type itemType, Guid itemMasterId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : GOBLIN
+TimeStamp : 6/14/2016 12:52:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.0.6010.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/155/ROOT-1-131103790007083040
+ThreadIdentity : 
+WindowsIdentity : GOBLIN\alonberman
+Requested URL : http://ipulse_2016.testfire.co.za/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.People.Person&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&duplicate=true&workflowOperation=SaveDraft
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: GOBLIN
+
+App Domain: /LM/W3SVC/155/ROOT-1-131103790007083040
+
+ProcessId: 10244
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9640
+
+Extended Properties: Url - gary-chalmers
+
+----------------------------------------

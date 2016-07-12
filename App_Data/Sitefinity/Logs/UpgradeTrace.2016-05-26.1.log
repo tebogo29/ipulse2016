@@ -1,0 +1,63 @@
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: Adding a foreign key constraint(s) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: Removing a foreign key constraint(s) from an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: ALTER TABLE [dynmc_3851475462bd812ff00002f4] DROP CONSTRAINT [ref_dynmc_3851475462bd812ff000]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: ALTER TABLE [dynmc_7d8d51475462bd812ff00002] DROP CONSTRAINT [ref_dynmc_7d8d51475462bd812ff0]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: ALTER TABLE [dynmc_96952475462bd812ff00002f] DROP CONSTRAINT [ref_dynmc_96952475462bd812ff00]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: ALTER TABLE [dynmc_3851475462bd812ff00002f4] ADD CONSTRAINT [ref_dynmc_3851475462b_C6162B8C] FOREIGN KEY ([id]) REFERENCES [sf_dynamic_type_base]([id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: ALTER TABLE [dynmc_7d8d51475462bd812ff00002] ADD CONSTRAINT [ref_dynmc_7d8d5147546_66618B39] FOREIGN KEY ([id]) REFERENCES [sf_dynamic_type_base]([id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 5/23/2016 12:18:46 PM
+
+Message: ALTER TABLE [dynmc_96952475462bd812ff00002f] ADD CONSTRAINT [ref_dynmc_96952475462_3A88B056] FOREIGN KEY ([id]) REFERENCES [sf_dynamic_type_base]([id]) ON DELETE CASCADE
+
+
+----------------------------------------
